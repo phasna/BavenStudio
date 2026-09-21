@@ -1,0 +1,49 @@
+- generic [ref=f21e3]:
+  - banner [ref=f21e4]:
+    - generic [ref=f21e5]:
+      - link "Baven Studio — Accueil" [ref=f21e6] [cursor=pointer]:
+        - /url: /
+        - img "Baven Studio" [ref=f21e7]
+      - navigation [ref=f21e8]:
+        - list [ref=f21e9]:
+          - listitem [ref=f21e10]:
+            - link "Accueil" [ref=f21e11] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f21e12]:
+            - link "Shop" [ref=f21e13] [cursor=pointer]:
+              - /url: /shop
+      - generic [ref=f21e14]:
+        - generic [ref=f21e15]:
+          - searchbox "Rechercher..." [ref=f21e16]
+          - button "Ouvrir la recherche" [ref=f21e17] [cursor=pointer]
+        - link "Panier 1" [ref=f21e21] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=f21e22]: Panier
+          - generic [ref=f21e23]: "1"
+  - main [ref=f21e24]:
+    - generic [ref=f21e25]:
+      - heading "Panier" [level=1] [ref=f21e26]
+      - generic [ref=f21e28]:
+        - link [ref=f21e29] [cursor=pointer]:
+          - /url: /produits/oversize-tee-become
+        - generic [ref=f21e31]:
+          - link "Oversize Tee — Become" [ref=f21e32] [cursor=pointer]:
+            - /url: /produits/oversize-tee-become
+          - generic [ref=f21e33]: S · Baven Ink
+        - generic [ref=f21e34]:
+          - spinbutton [ref=f21e35]: "1"
+          - generic [ref=f21e36]: 45 €
+          - button "Retirer" [ref=f21e37] [cursor=pointer]
+      - generic [ref=f21e38]:
+        - generic [ref=f21e39]: "Total : 45 €"
+        - link "Commander" [ref=f21e40] [cursor=pointer]:
+          - /url: /checkout
+  - contentinfo [ref=f21e41]:
+    - generic [ref=f21e42]:
+      - navigation [ref=f21e43]:
+        - generic [ref=f21e44]: Info
+        - generic [ref=f21e45]: Stockists
+        - generic [ref=f21e46]: Social
+        - generic [ref=f21e47]: Support
+        - generic [ref=f21e48]: Legal
+      - generic [ref=f21e49]: © 2021 – 2026 Baven Studio. All rights reserved

@@ -1,0 +1,109 @@
+- generic [ref=f21e3]:
+  - banner [ref=f21e4]:
+    - generic [ref=f21e5]:
+      - link "Baven Studio — Accueil" [ref=f21e6] [cursor=pointer]:
+        - /url: /
+        - img "Baven Studio" [ref=f21e7]
+      - navigation [ref=f21e8]:
+        - list [ref=f21e9]:
+          - listitem [ref=f21e10]:
+            - link "Accueil" [ref=f21e11] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f21e12]:
+            - link "Shop" [ref=f21e13] [cursor=pointer]:
+              - /url: /shop
+      - generic [ref=f21e14]:
+        - generic [ref=f21e15]:
+          - searchbox "Rechercher..." [ref=f21e16]
+          - button "Ouvrir la recherche" [ref=f21e17] [cursor=pointer]
+        - link "Panier 1" [ref=f21e21] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=f21e22]: Panier
+          - generic [ref=f21e23]: "1"
+  - main [ref=f21e24]:
+    - generic [ref=f21e50]:
+      - heading "Paiement" [level=1] [ref=f21e51]
+      - generic [ref=f21e52]:
+        - generic [ref=f21e53]:
+          - generic [ref=f21e54]:
+            - heading "Livraison" [level=2] [ref=f21e55]
+            - generic [ref=f21e56]:
+              - generic [ref=f21e57]:
+                - generic [ref=f21e58]: Nom complet
+                - textbox "Nom complet Nom requis" [active] [ref=f21e113]
+                - generic [ref=f21e114]: Nom requis
+              - generic [ref=f21e60]:
+                - generic [ref=f21e61]: Email
+                - textbox "Email Email invalide" [ref=f21e115]
+                - generic [ref=f21e116]: Email invalide
+              - generic [ref=f21e63]:
+                - generic [ref=f21e64]: Téléphone
+                - textbox "Téléphone Téléphone requis" [ref=f21e117]
+                - generic [ref=f21e118]: Téléphone requis
+              - generic [ref=f21e66]:
+                - generic [ref=f21e67]: Adresse
+                - textbox "Adresse Adresse requise" [ref=f21e119]
+                - generic [ref=f21e120]: Adresse requise
+              - generic [ref=f21e69]:
+                - generic [ref=f21e70]: Ville
+                - textbox "Ville Ville requise" [ref=f21e121]
+                - generic [ref=f21e122]: Ville requise
+              - generic [ref=f21e72]:
+                - generic [ref=f21e73]: Code postal
+                - textbox "Code postal Code postal invalide" [ref=f21e123]
+                - generic [ref=f21e124]: Code postal invalide
+              - generic [ref=f21e75]:
+                - generic [ref=f21e76]: Pays
+                - textbox "Pays" [ref=f21e77]: France
+          - generic [ref=f21e78]:
+            - heading "Paiement" [level=2] [ref=f21e79]
+            - generic [ref=f21e80]:
+              - generic [ref=f21e81]:
+                - generic [ref=f21e82]: Nom sur la carte
+                - textbox "Nom sur la carte Nom sur la carte requis" [ref=f21e125]
+                - generic [ref=f21e126]: Nom sur la carte requis
+              - generic [ref=f21e84]:
+                - generic [ref=f21e85]: Numéro de carte
+                - textbox "Numéro de carte Numéro de carte invalide" [ref=f21e127]:
+                  - /placeholder: 0000 0000 0000 0000
+                - generic [ref=f21e128]: Numéro de carte invalide
+              - generic [ref=f21e87]:
+                - generic [ref=f21e88]: Expiration
+                - textbox "Expiration Format MM/AA" [ref=f21e129]:
+                  - /placeholder: MM/AA
+                - generic [ref=f21e130]: Format MM/AA
+              - generic [ref=f21e90]:
+                - generic [ref=f21e91]: CVC
+                - textbox "CVC CVC invalide" [ref=f21e131]:
+                  - /placeholder: "123"
+                - generic [ref=f21e132]: CVC invalide
+            - paragraph [ref=f21e93]: Simulation — aucune donnée bancaire n'est transmise (V1).
+        - complementary [ref=f21e94]:
+          - heading "Récapitulatif" [level=2] [ref=f21e95]
+          - generic [ref=f21e97]:
+            - generic [ref=f21e98]:
+              - text: Oversize Tee — Become
+              - generic [ref=f21e99]: × 1 · S
+            - generic [ref=f21e100]: 45 €
+          - generic [ref=f21e101]:
+            - generic [ref=f21e102]:
+              - generic [ref=f21e103]: Sous-total
+              - generic [ref=f21e104]: 45 €
+            - generic [ref=f21e105]:
+              - generic [ref=f21e106]: Livraison
+              - generic [ref=f21e107]: 6 €
+            - generic [ref=f21e108]:
+              - generic [ref=f21e109]: Total
+              - generic [ref=f21e110]: 51 €
+          - button "Payer 51 €" [ref=f21e111] [cursor=pointer]
+          - link "Retour au panier" [ref=f21e112] [cursor=pointer]:
+            - /url: /cart
+  - contentinfo [ref=f21e41]:
+    - generic [ref=f21e42]:
+      - navigation [ref=f21e43]:
+        - generic [ref=f21e44]: Info
+        - generic [ref=f21e45]: Stockists
+        - generic [ref=f21e46]: Social
+        - generic [ref=f21e47]: Support
+        - generic [ref=f21e48]: Legal
+      - generic [ref=f21e49]: © 2021 – 2026 Baven Studio. All rights reserved

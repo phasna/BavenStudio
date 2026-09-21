@@ -1,0 +1,67 @@
+- generic [ref=f13e3]:
+  - banner [ref=f13e4]:
+    - generic [ref=f13e5]:
+      - link "Baven Studio — Accueil" [ref=f13e6] [cursor=pointer]:
+        - /url: /
+        - img "Baven Studio" [ref=f13e7]
+      - navigation [ref=f13e8]:
+        - list [ref=f13e9]:
+          - listitem [ref=f13e10]:
+            - link "Accueil" [ref=f13e11] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f13e12]:
+            - link "Shop" [ref=f13e13] [cursor=pointer]:
+              - /url: /shop
+      - generic [ref=f13e14]:
+        - generic [ref=f13e15]:
+          - searchbox "Rechercher..." [ref=f13e16]
+          - button "Ouvrir la recherche" [ref=f13e17] [cursor=pointer]
+        - link "Panier 1" [ref=f13e21] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=f13e22]: Panier
+          - generic [ref=f13e23]: "1"
+  - main [ref=f13e24]:
+    - generic [ref=f13e28]:
+      - text: T-Shirts
+      - heading "Oversize Tee — Become" [level=1] [ref=f13e29]
+      - paragraph [ref=f13e30]: 45 €
+      - paragraph [ref=f13e31]: T-shirt oversize en coton lourd, sérigraphie minimale « BECOME. EVOLVE. ». Coupe droite, épaules tombantes.
+      - generic [ref=f13e32]:
+        - generic [ref=f13e33]: Taille
+        - generic [ref=f13e34]:
+          - button "XS" [ref=f13e35] [cursor=pointer]
+          - button "S" [ref=f13e36] [cursor=pointer]
+          - button "M" [ref=f13e37] [cursor=pointer]
+          - button "L" [ref=f13e38] [cursor=pointer]
+          - button "XL" [ref=f13e39] [cursor=pointer]
+      - generic [ref=f13e40]:
+        - generic [ref=f13e41]: Couleur
+        - generic [ref=f13e42]:
+          - button "Baven Ink" [ref=f13e43] [cursor=pointer]
+          - button "Off White" [ref=f13e44] [cursor=pointer]
+      - generic [ref=f13e45]:
+        - generic [ref=f13e46]: Quantité
+        - generic [ref=f13e47]:
+          - button "Diminuer la quantité" [ref=f13e48] [cursor=pointer]: −
+          - generic [ref=f13e49]: "1"
+          - button "Augmenter la quantité" [ref=f13e50] [cursor=pointer]: +
+      - button "Ajouter au panier" [ref=f13e52] [cursor=pointer]
+      - generic [ref=f13e53]:
+        - button "Détails & matière +" [ref=f13e55] [cursor=pointer]:
+          - text: Détails & matière
+          - generic [ref=f13e56]: +
+        - button "Livraison & retours +" [ref=f13e58] [cursor=pointer]:
+          - text: Livraison & retours
+          - generic [ref=f13e59]: +
+        - button "Guide des tailles +" [ref=f13e61] [cursor=pointer]:
+          - text: Guide des tailles
+          - generic [ref=f13e62]: +
+  - contentinfo [ref=f13e63]:
+    - generic [ref=f13e64]:
+      - navigation [ref=f13e65]:
+        - generic [ref=f13e66]: Info
+        - generic [ref=f13e67]: Stockists
+        - generic [ref=f13e68]: Social
+        - generic [ref=f13e69]: Support
+        - generic [ref=f13e70]: Legal
+      - generic [ref=f13e71]: © 2021 – 2026 Baven Studio. All rights reserved

@@ -5,6 +5,7 @@ import { useCart } from "../context/CartContext.jsx";
 import { getFallbackImage } from "../lib/placeholderImages.js";
 import Accordion from "../components/Accordion.jsx";
 import ProductCard from "../components/ProductCard.jsx";
+import { useLanguage } from "../context/LanguageContext.jsx";
 
 const SIZE_GUIDE_ROWS = [
   { size: "XS", chest: "88", length: "66" },
@@ -18,6 +19,7 @@ export default function ProductDetail() {
   const { slug } = useParams();
   const navigate = useNavigate();
   const { addItem } = useCart();
+  const { t } = useLanguage();
 
   const [product, setProduct] = useState(null);
   const [related, setRelated] = useState([]);
@@ -57,7 +59,7 @@ export default function ProductDetail() {
   if (!product) {
     return (
       <div className="container section">
-        <p style={{ color: "var(--color-neutral-grey)" }}>Chargement…</p>
+        <p style={{ color: "var(--color-neutral-grey)" }}>{t("product.loading")}</p>
       </div>
     );
   }
@@ -69,32 +71,32 @@ export default function ProductDetail() {
 
   const accordionItems = [
     {
-      title: "Détails & matière",
+      title: t("product.detailsTitle"),
       content: (
         <>
           <p style={{ marginBottom: 12 }}>{product.description}</p>
-          <p>Entretien : lavage à 30°C, ne pas blanchir, séchage à plat conseillé.</p>
+          <p>{t("product.careInstructions")}</p>
         </>
       ),
     },
     {
-      title: "Livraison & retours",
+      title: t("product.shippingReturnsTitle"),
       content: (
         <>
-          <p style={{ marginBottom: 12 }}>Livraison estimée en 3 à 5 jours ouvrés en France métropolitaine.</p>
-          <p>Retours gratuits sous 30 jours, article non porté et étiquette conservée.</p>
+          <p style={{ marginBottom: 12 }}>{t("product.deliveryEstimate")}</p>
+          <p>{t("product.freeReturns")}</p>
         </>
       ),
     },
     {
-      title: "Guide des tailles",
+      title: t("product.sizeGuideTitle"),
       content: (
         <table style={{ width: "100%", borderCollapse: "collapse" }}>
           <thead>
             <tr>
-              <th style={{ textAlign: "left", padding: "4px 0" }}>Taille</th>
-              <th style={{ textAlign: "left", padding: "4px 0" }}>Tour de poitrine (cm)</th>
-              <th style={{ textAlign: "left", padding: "4px 0" }}>Longueur (cm)</th>
+              <th style={{ textAlign: "left", padding: "4px 0" }}>{t("product.size")}</th>
+              <th style={{ textAlign: "left", padding: "4px 0" }}>{t("product.chest")}</th>
+              <th style={{ textAlign: "left", padding: "4px 0" }}>{t("product.length")}</th>
             </tr>
           </thead>
           <tbody>
@@ -156,7 +158,7 @@ export default function ProductDetail() {
                 className="eyebrow"
                 style={{ display: "block", marginBottom: 8 }}
               >
-                Taille
+                {t("product.size")}
               </span>
               <div style={{ display: "flex", gap: 8 }}>
                 {product.sizes.map((s) => (
@@ -187,7 +189,7 @@ export default function ProductDetail() {
                 className="eyebrow"
                 style={{ display: "block", marginBottom: 8 }}
               >
-                Couleur
+                {t("product.color")}
               </span>
               <div style={{ display: "flex", gap: 8 }}>
                 {product.colors.map((c) => (
@@ -214,14 +216,14 @@ export default function ProductDetail() {
 
           <div style={{ marginBottom: 32 }}>
             <span className="eyebrow" style={{ display: "block", marginBottom: 8 }}>
-              Quantité
+              {t("product.quantity")}
             </span>
             <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
               <button
                 onClick={() => setQuantity((q) => Math.max(1, q - 1))}
                 className="btn btn-outline"
                 style={{ padding: "8px 14px" }}
-                aria-label="Diminuer la quantité"
+                aria-label={t("product.decreaseQty")}
               >
                 −
               </button>
@@ -230,7 +232,7 @@ export default function ProductDetail() {
                 onClick={() => setQuantity((q) => q + 1)}
                 className="btn btn-outline"
                 style={{ padding: "8px 14px" }}
-                aria-label="Augmenter la quantité"
+                aria-label={t("product.increaseQty")}
               >
                 +
               </button>
@@ -239,14 +241,14 @@ export default function ProductDetail() {
 
           <div style={{ display: "flex", gap: 16, marginBottom: 16 }}>
             <button onClick={handleAddToCart} className="btn btn-primary">
-              Ajouter au panier
+              {t("product.addToCart")}
             </button>
             {added && (
               <button
                 onClick={() => navigate("/cart")}
                 className="btn btn-outline"
               >
-                Voir le panier
+                {t("product.viewCart")}
               </button>
             )}
           </div>
@@ -267,7 +269,7 @@ export default function ProductDetail() {
       {related.length > 0 && (
         <div style={{ marginTop: 96 }}>
           <h2 style={{ fontSize: "clamp(22px, 3vw, 32px)", marginBottom: 32 }}>
-            Vous aimerez aussi
+            {t("product.relatedTitle")}
           </h2>
           <div
             style={{

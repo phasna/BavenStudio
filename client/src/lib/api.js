@@ -1,3 +1,5 @@
+import mockData from '../data/mockData.json';
+
 const BASE_URL = '/api';
 
 async function request(path) {
@@ -8,20 +10,52 @@ async function request(path) {
   return res.json();
 }
 
-export function getProducts({ category, featured, gender, search } = {}) {
+function mockProducts({ category, featured, gender, search } = {}) {
+  let products = mockData.products;
+
+  if (featured) products = products.filter((p) => p.featured);
+  if (gender === 'homme' || gender === 'femme') {
+    products = products.filter((p) => p.gender === gender || p.gender === 'unisexe');
+  }
+  if (category) products = products.filter((p) => p.category?.slug === category);
+  if (search) {
+    const query = search.toLowerCase();
+    products = products.filter((p) => p.name.toLowerCase().includes(query));
+  }
+
+  return products;
+}
+
+export async function getProducts(filters = {}) {
+  const { category, featured, gender, search } = filters;
   const params = new URLSearchParams();
   if (category) params.set('category', category);
   if (featured) params.set('featured', 'true');
   if (gender) params.set('gender', gender);
   if (search) params.set('search', search);
   const query = params.toString() ? `?${params.toString()}` : '';
-  return request(`/products${query}`);
+
+  try {
+    return await request(`/products${query}`);
+  } catch {
+    return mockProducts(filters);
+  }
 }
 
-export function getProduct(slug) {
-  return request(`/products/${slug}`);
+export async function getProduct(slug) {
+  try {
+    return await request(`/products/${slug}`);
+  } catch {
+    const product = mockData.products.find((p) => p.slug === slug);
+    if (!product) throw new Error('Produit introuvable');
+    return product;
+  }
 }
 
-export function getCategories() {
-  return request('/categories');
+export async function getCategories() {
+  try {
+    return await request('/categories');
+  } catch {
+    return mockData.categories;
+  }
 }

@@ -1,26 +1,22 @@
 import { Link } from "react-router-dom";
+import logoBlack from "../assets/Logo/baven_logo_black.png";
+import logoWhite from "../assets/Logo/baven_logo_white.png";
 
 export default function Logo({ variant = "ink", size = "md" }) {
-  const color =
-    variant === "off-white" ? "var(--color-off-white)" : "var(--color-ink)";
-  const fontSize = size === "lg" ? "clamp(48px, 10vw, 120px)" : "22px";
+  const src = variant === "off-white" ? logoWhite : logoBlack;
+  const height = size === "lg" ? "clamp(48px, 8vw, 100px)" : 24;
 
   return (
     <Link
       to="/"
       aria-label="Baven Studio — Accueil"
       style={{
-        fontFamily: "var(--font-logo)",
-        fontWeight: 700,
-        fontSize,
-        color,
-        letterSpacing: "-0.01em",
-        lineHeight: 1,
-        display: "inline-block",
-        textTransform: "none",
+        display: "inline-flex",
+        alignItems: "center",
+        lineHeight: 0,
       }}
     >
-      Baven studio
+      <img src={src} alt="Baven Studio" style={{ height, width: "auto" }} />
     </Link>
   );
 }

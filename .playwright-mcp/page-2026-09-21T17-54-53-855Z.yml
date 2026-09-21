@@ -1,0 +1,36 @@
+- generic [ref=f22e3]:
+  - banner [ref=f22e4]:
+    - generic [ref=f22e5]:
+      - link "Baven Studio — Accueil" [ref=f22e6] [cursor=pointer]:
+        - /url: /
+        - img "Baven Studio" [ref=f22e7]
+      - navigation [ref=f22e8]:
+        - list [ref=f22e9]:
+          - listitem [ref=f22e10]:
+            - link "Accueil" [ref=f22e11] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f22e12]:
+            - link "Shop" [ref=f22e13] [cursor=pointer]:
+              - /url: /shop
+      - generic [ref=f22e14]:
+        - generic [ref=f22e15]:
+          - searchbox "Rechercher..." [ref=f22e16]
+          - button "Ouvrir la recherche" [ref=f22e17] [cursor=pointer]
+        - link "Panier 0" [ref=f22e21] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=f22e22]: Panier
+          - generic [ref=f22e23]: "0"
+  - main [ref=f22e24]:
+    - generic [ref=f22e25]:
+      - heading "Votre panier est vide" [level=1] [ref=f22e26]
+      - link "Retour au shop" [ref=f22e27] [cursor=pointer]:
+        - /url: /shop
+  - contentinfo [ref=f22e28]:
+    - generic [ref=f22e29]:
+      - navigation [ref=f22e30]:
+        - generic [ref=f22e31]: Info
+        - generic [ref=f22e32]: Stockists
+        - generic [ref=f22e33]: Social
+        - generic [ref=f22e34]: Support
+        - generic [ref=f22e35]: Legal
+      - generic [ref=f22e36]: © 2021 – 2026 Baven Studio. All rights reserved

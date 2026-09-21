@@ -1,0 +1,37 @@
+- generic [ref=f14e3]:
+  - banner [ref=f14e4]:
+    - generic [ref=f14e5]:
+      - link "Baven Studio — Accueil" [ref=f14e6] [cursor=pointer]:
+        - /url: /
+        - img "Baven Studio" [ref=f14e7]
+      - navigation [ref=f14e8]:
+        - list [ref=f14e9]:
+          - listitem [ref=f14e10]:
+            - link "Accueil" [ref=f14e11] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f14e12]:
+            - link "Shop" [ref=f14e13] [cursor=pointer]:
+              - /url: /shop
+      - generic [ref=f14e14]:
+        - generic [ref=f14e15]:
+          - searchbox "Rechercher..." [ref=f14e16]
+          - button "Ouvrir la recherche" [ref=f14e17] [cursor=pointer]
+        - link "Panier 0" [ref=f14e50] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=f14e22]: Panier
+          - generic [ref=f14e23]: "0"
+  - main [ref=f14e24]:
+    - generic [ref=f14e25]:
+      - heading "Merci pour votre commande" [level=1] [ref=f14e51]
+      - paragraph [ref=f14e52]: Commande simulée — le paiement n'est pas encore branché (V1).
+      - link "Retour au shop" [ref=f14e53] [cursor=pointer]:
+        - /url: /shop
+  - contentinfo [ref=f14e41]:
+    - generic [ref=f14e42]:
+      - navigation [ref=f14e43]:
+        - generic [ref=f14e44]: Info
+        - generic [ref=f14e45]: Stockists
+        - generic [ref=f14e46]: Social
+        - generic [ref=f14e47]: Support
+        - generic [ref=f14e48]: Legal
+      - generic [ref=f14e49]: © 2021 – 2026 Baven Studio. All rights reserved

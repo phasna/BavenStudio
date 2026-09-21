@@ -3,12 +3,13 @@
   --color-off-white: #f4f1ea;
   --color-light-grey: #e6e3dc;
   --color-neutral-grey: #777b80;
+  --color-error: #b3261e;
 
   --font-logo: 'Oswald', 'Arial Narrow', sans-serif;
   --font-display: 'Space Grotesk', sans-serif;
   --font-body: 'Inter', sans-serif;
 
-  --container-max: 1240px;
+  --container-max: 1600px;
 }
 
 * {
@@ -127,5 +128,23 @@ ul {
 @media (max-width: 640px) {
   .section {
     padding: 48px 0;
+  }
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+@media (max-width: 900px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .product-grid {
+    grid-template-columns: 1fr;
   }
 }

@@ -1,0 +1,93 @@
+- generic [ref=f6e3]:
+  - banner [ref=f6e4]:
+    - generic [ref=f6e5]:
+      - link "Baven Studio — Accueil" [ref=f6e6] [cursor=pointer]:
+        - /url: /
+        - img "Baven Studio" [ref=f6e7]
+      - navigation [ref=f6e8]:
+        - list [ref=f6e9]:
+          - listitem [ref=f6e10]:
+            - link "Accueil" [ref=f6e11] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f6e12]:
+            - link "Shop" [ref=f6e13] [cursor=pointer]:
+              - /url: /shop
+      - generic [ref=f6e14]:
+        - generic [ref=f6e15]:
+          - searchbox "Rechercher..." [ref=f6e16]
+          - button "Ouvrir la recherche" [ref=f6e17] [cursor=pointer]
+        - link "Panier 0" [ref=f6e21] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=f6e22]: Panier
+          - generic [ref=f6e23]: "0"
+  - main [ref=f6e24]:
+    - generic [ref=f6e25]:
+      - heading "Shop" [level=1] [ref=f6e26]
+      - generic [ref=f6e27]:
+        - button "Tout" [ref=f6e28] [cursor=pointer]
+        - button "Femme" [ref=f6e29] [cursor=pointer]
+        - button "Homme" [ref=f6e30] [cursor=pointer]
+      - generic [ref=f6e31]:
+        - link "Oversize Tee — Become 45 € T-Shirts" [ref=f6e32] [cursor=pointer]:
+          - /url: /produits/oversize-tee-become
+          - generic [ref=f6e34]:
+            - generic [ref=f6e35]: Oversize Tee — Become
+            - generic [ref=f6e36]: 45 €
+          - generic [ref=f6e37]: T-Shirts
+        - link "Essential Tee — B 39 € T-Shirts" [ref=f6e38] [cursor=pointer]:
+          - /url: /produits/essential-tee-b
+          - generic [ref=f6e40]:
+            - generic [ref=f6e41]: Essential Tee — B
+            - generic [ref=f6e42]: 39 €
+          - generic [ref=f6e43]: T-Shirts
+        - link "Signature Hoodie 89 € Hoodies" [ref=f6e44] [cursor=pointer]:
+          - /url: /produits/signature-hoodie
+          - generic [ref=f6e46]:
+            - generic [ref=f6e47]: Signature Hoodie
+            - generic [ref=f6e48]: 89 €
+          - generic [ref=f6e49]: Hoodies
+        - link "Evolve Hoodie 95 € Hoodies" [ref=f6e50] [cursor=pointer]:
+          - /url: /produits/evolve-hoodie
+          - generic [ref=f6e52]:
+            - generic [ref=f6e53]: Evolve Hoodie
+            - generic [ref=f6e54]: 95 €
+          - generic [ref=f6e55]: Hoodies
+        - link "Crewneck Sweatshirt 79 € Sweatshirts" [ref=f6e56] [cursor=pointer]:
+          - /url: /produits/crewneck-sweatshirt
+          - generic [ref=f6e58]:
+            - generic [ref=f6e59]: Crewneck Sweatshirt
+            - generic [ref=f6e60]: 79 €
+          - generic [ref=f6e61]: Sweatshirts
+        - link "New Drop Cap 35 € Casquettes" [ref=f6e62] [cursor=pointer]:
+          - /url: /produits/new-drop-cap
+          - generic [ref=f6e64]:
+            - generic [ref=f6e65]: New Drop Cap
+            - generic [ref=f6e66]: 35 €
+          - generic [ref=f6e67]: Casquettes
+        - link "Wide Cargo Pants 99 € Pantalons" [ref=f6e68] [cursor=pointer]:
+          - /url: /produits/wide-cargo-pants
+          - generic [ref=f6e70]:
+            - generic [ref=f6e71]: Wide Cargo Pants
+            - generic [ref=f6e72]: 99 €
+          - generic [ref=f6e73]: Pantalons
+        - link "Studio Track Jacket 129 € Vestes" [ref=f6e74] [cursor=pointer]:
+          - /url: /produits/studio-track-jacket
+          - generic [ref=f6e76]:
+            - generic [ref=f6e77]: Studio Track Jacket
+            - generic [ref=f6e78]: 129 €
+          - generic [ref=f6e79]: Vestes
+        - link "Tote Bag — Move Forward 25 € Accessoires" [ref=f6e80] [cursor=pointer]:
+          - /url: /produits/tote-bag-move-forward
+          - generic [ref=f6e82]:
+            - generic [ref=f6e83]: Tote Bag — Move Forward
+            - generic [ref=f6e84]: 25 €
+          - generic [ref=f6e85]: Accessoires
+  - contentinfo [ref=f6e86]:
+    - generic [ref=f6e87]:
+      - navigation [ref=f6e88]:
+        - generic [ref=f6e89]: Info
+        - generic [ref=f6e90]: Stockists
+        - generic [ref=f6e91]: Social
+        - generic [ref=f6e92]: Support
+        - generic [ref=f6e93]: Legal
+      - generic [ref=f6e94]: © 2021 – 2026 Baven Studio. All rights reserved

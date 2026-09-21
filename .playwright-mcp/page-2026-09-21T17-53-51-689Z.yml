@@ -1,0 +1,78 @@
+- generic [ref=f20e3]:
+  - banner [ref=f20e4]:
+    - generic [ref=f20e5]:
+      - link "Baven Studio — Accueil" [ref=f20e6] [cursor=pointer]:
+        - /url: /
+        - img "Baven Studio" [ref=f20e7]
+      - navigation [ref=f20e8]:
+        - list [ref=f20e9]:
+          - listitem [ref=f20e10]:
+            - link "Accueil" [ref=f20e11] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f20e12]:
+            - link "Shop" [ref=f20e13] [cursor=pointer]:
+              - /url: /shop
+      - generic [ref=f20e14]:
+        - generic [ref=f20e15]:
+          - searchbox "Rechercher..." [ref=f20e16]
+          - button "Ouvrir la recherche" [ref=f20e17] [cursor=pointer]
+        - link "Panier 1" [ref=f20e81] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=f20e22]: Panier
+          - generic [ref=f20e23]: "1"
+  - main [ref=f20e24]:
+    - generic [ref=f20e25]:
+      - generic [ref=f20e28]:
+        - text: T-Shirts
+        - heading "Oversize Tee — Become" [level=1] [ref=f20e29]
+        - paragraph [ref=f20e30]: 45 €
+        - paragraph [ref=f20e31]: T-shirt oversize en coton lourd, sérigraphie minimale « BECOME. EVOLVE. ». Coupe droite, épaules tombantes.
+        - generic [ref=f20e32]:
+          - generic [ref=f20e33]: Taille
+          - generic [ref=f20e34]:
+            - button "XS" [ref=f20e35] [cursor=pointer]
+            - button "S" [ref=f20e36] [cursor=pointer]
+            - button "M" [ref=f20e37] [cursor=pointer]
+            - button "L" [ref=f20e38] [cursor=pointer]
+            - button "XL" [ref=f20e39] [cursor=pointer]
+        - generic [ref=f20e40]:
+          - generic [ref=f20e41]: Couleur
+          - generic [ref=f20e42]:
+            - button "Baven Ink" [ref=f20e43] [cursor=pointer]
+            - button "Off White" [ref=f20e44] [cursor=pointer]
+        - generic [ref=f20e45]:
+          - generic [ref=f20e46]: Quantité
+          - generic [ref=f20e47]:
+            - button "Diminuer la quantité" [ref=f20e48] [cursor=pointer]: −
+            - generic [ref=f20e49]: "1"
+            - button "Augmenter la quantité" [ref=f20e50] [cursor=pointer]: +
+        - generic [ref=f20e51]:
+          - button "Ajouter au panier" [active] [ref=f20e52] [cursor=pointer]
+          - button "Voir le panier" [ref=f20e82] [cursor=pointer]
+        - generic [ref=f20e53]:
+          - button "Détails & matière +" [ref=f20e55] [cursor=pointer]:
+            - text: Détails & matière
+            - generic [ref=f20e56]: +
+          - button "Livraison & retours +" [ref=f20e58] [cursor=pointer]:
+            - text: Livraison & retours
+            - generic [ref=f20e59]: +
+          - button "Guide des tailles +" [ref=f20e61] [cursor=pointer]:
+            - text: Guide des tailles
+            - generic [ref=f20e62]: +
+      - generic [ref=f20e72]:
+        - heading "Vous aimerez aussi" [level=2] [ref=f20e73]
+        - link "Essential Tee — B 39 € T-Shirts" [ref=f20e75] [cursor=pointer]:
+          - /url: /produits/essential-tee-b
+          - generic [ref=f20e77]:
+            - generic [ref=f20e78]: Essential Tee — B
+            - generic [ref=f20e79]: 39 €
+          - generic [ref=f20e80]: T-Shirts
+  - contentinfo [ref=f20e63]:
+    - generic [ref=f20e64]:
+      - navigation [ref=f20e65]:
+        - generic [ref=f20e66]: Info
+        - generic [ref=f20e67]: Stockists
+        - generic [ref=f20e68]: Social
+        - generic [ref=f20e69]: Support
+        - generic [ref=f20e70]: Legal
+      - generic [ref=f20e71]: © 2021 – 2026 Baven Studio. All rights reserved
