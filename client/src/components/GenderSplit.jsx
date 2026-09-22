@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import femmeImage from "../assets/gender/Femme1.JPEG";
-import hommeImage from "../assets/gender/Homme1.JPEG";
+import femmeImage from "../assets/gender/Femme1.jpg";
+import hommeImage from "../assets/gender/Homme1.jpg";
 import { useLanguage } from "../context/LanguageContext.jsx";
 
 export default function GenderSplit() {

@@ -1,0 +1,131 @@
+- generic [ref=f7e3]:
+  - banner [ref=f7e4]:
+    - generic [ref=f7e5]:
+      - link "Baven Studio — Accueil" [ref=f7e6] [cursor=pointer]:
+        - /url: /
+        - img "Baven Studio" [ref=f7e7]
+      - generic [ref=f7e8]:
+        - button "Switch language" [ref=f7e9] [cursor=pointer]: EN
+        - link "Panier (1)" [ref=f7e139] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=f7e11]: "1"
+        - button "Ouvrir le menu" [ref=f7e16] [cursor=pointer]
+    - navigation [aria-hidden] [ref=f7e18]:
+      - generic [ref=f7e19]:
+        - generic [ref=f7e20]:
+          - link [ref=f7e21] [cursor=pointer]:
+            - /url: /
+          - button [ref=f7e23] [cursor=pointer]
+        - list [ref=f7e27]:
+          - listitem [ref=f7e28]:
+            - link [ref=f7e29] [cursor=pointer]:
+              - /url: /
+              - text: Accueil
+          - listitem [ref=f7e30]:
+            - link [ref=f7e31] [cursor=pointer]:
+              - /url: /shop
+              - text: Shop
+        - generic [ref=f7e32]:
+          - button [ref=f7e33] [cursor=pointer]: EN
+          - link [ref=f7e34] [cursor=pointer]:
+            - /url: /cart
+            - text: Panier (1)
+  - main [ref=f7e39]:
+    - generic [ref=f7e40]:
+      - generic [ref=f7e53]:
+        - text: T-Shirts
+        - heading "Oversize Tee — Become" [level=1] [ref=f7e54]
+        - paragraph [ref=f7e55]: 45 €
+        - paragraph [ref=f7e56]: T-shirt oversize en coton lourd, sérigraphie minimale « BECOME. EVOLVE. ». Coupe droite, épaules tombantes.
+        - generic [ref=f7e57]:
+          - generic [ref=f7e58]: Taille
+          - generic [ref=f7e59]:
+            - button "XS" [ref=f7e60] [cursor=pointer]
+            - button "S" [ref=f7e61] [cursor=pointer]
+            - button "M" [ref=f7e62] [cursor=pointer]
+            - button "L" [ref=f7e63] [cursor=pointer]
+            - button "XL" [ref=f7e64] [cursor=pointer]
+        - generic [ref=f7e65]:
+          - generic [ref=f7e66]: Couleur
+          - generic [ref=f7e67]:
+            - button "Baven Ink" [ref=f7e68] [cursor=pointer]
+            - button "Off White" [ref=f7e69] [cursor=pointer]
+        - generic [ref=f7e70]:
+          - generic [ref=f7e71]: Quantité
+          - generic [ref=f7e72]:
+            - button "Diminuer la quantité" [ref=f7e73] [cursor=pointer]: −
+            - generic [ref=f7e74]: "1"
+            - button "Augmenter la quantité" [ref=f7e75] [cursor=pointer]: +
+        - generic [ref=f7e76]:
+          - button "Ajouter au panier" [active] [ref=f7e77] [cursor=pointer]
+          - button "Voir le panier" [ref=f7e141] [cursor=pointer]
+        - generic [ref=f7e78]:
+          - button "Détails & matière +" [ref=f7e80] [cursor=pointer]:
+            - text: Détails & matière
+            - generic [ref=f7e81]: +
+          - button "Livraison & retours +" [ref=f7e83] [cursor=pointer]:
+            - text: Livraison & retours
+            - generic [ref=f7e84]: +
+          - button "Guide des tailles +" [ref=f7e86] [cursor=pointer]:
+            - text: Guide des tailles
+            - generic [ref=f7e87]: +
+      - generic [ref=f7e88]:
+        - heading "Vous aimerez aussi" [level=2] [ref=f7e89]
+        - generic [ref=f7e90]:
+          - link "Essential Tee — B 39 € T-Shirts" [ref=f7e91] [cursor=pointer]:
+            - /url: /produits/essential-tee-b
+            - generic [ref=f7e93]:
+              - generic [ref=f7e94]: Essential Tee — B
+              - generic [ref=f7e95]: 39 €
+            - generic [ref=f7e96]: T-Shirts
+          - link "Signature Hoodie 89 € Hoodies" [ref=f7e97] [cursor=pointer]:
+            - /url: /produits/signature-hoodie
+            - generic [ref=f7e99]:
+              - generic [ref=f7e100]: Signature Hoodie
+              - generic [ref=f7e101]: 89 €
+            - generic [ref=f7e102]: Hoodies
+          - link "Evolve Hoodie 95 € Hoodies" [ref=f7e103] [cursor=pointer]:
+            - /url: /produits/evolve-hoodie
+            - generic [ref=f7e105]:
+              - generic [ref=f7e106]: Evolve Hoodie
+              - generic [ref=f7e107]: 95 €
+            - generic [ref=f7e108]: Hoodies
+          - link "Crewneck Sweatshirt 79 € Sweatshirts" [ref=f7e109] [cursor=pointer]:
+            - /url: /produits/crewneck-sweatshirt
+            - generic [ref=f7e111]:
+              - generic [ref=f7e112]: Crewneck Sweatshirt
+              - generic [ref=f7e113]: 79 €
+            - generic [ref=f7e114]: Sweatshirts
+          - link "New Drop Cap 35 € Casquettes" [ref=f7e115] [cursor=pointer]:
+            - /url: /produits/new-drop-cap
+            - generic [ref=f7e117]:
+              - generic [ref=f7e118]: New Drop Cap
+              - generic [ref=f7e119]: 35 €
+            - generic [ref=f7e120]: Casquettes
+          - link "Wide Cargo Pants 99 € Pantalons" [ref=f7e121] [cursor=pointer]:
+            - /url: /produits/wide-cargo-pants
+            - generic [ref=f7e123]:
+              - generic [ref=f7e124]: Wide Cargo Pants
+              - generic [ref=f7e125]: 99 €
+            - generic [ref=f7e126]: Pantalons
+          - link "Studio Track Jacket 129 € Vestes" [ref=f7e127] [cursor=pointer]:
+            - /url: /produits/studio-track-jacket
+            - generic [ref=f7e129]:
+              - generic [ref=f7e130]: Studio Track Jacket
+              - generic [ref=f7e131]: 129 €
+            - generic [ref=f7e132]: Vestes
+          - link "Tote Bag — Move Forward 25 € Accessoires" [ref=f7e133] [cursor=pointer]:
+            - /url: /produits/tote-bag-move-forward
+            - generic [ref=f7e135]:
+              - generic [ref=f7e136]: Tote Bag — Move Forward
+              - generic [ref=f7e137]: 25 €
+            - generic [ref=f7e138]: Accessoires
+  - contentinfo [ref=f7e42]:
+    - generic [ref=f7e43]:
+      - navigation [ref=f7e44]:
+        - generic [ref=f7e45]: Info
+        - generic [ref=f7e46]: Stockists
+        - generic [ref=f7e47]: Social
+        - generic [ref=f7e48]: Support
+        - generic [ref=f7e49]: Legal
+      - generic [ref=f7e50]: © 2021 – 2026 Baven Studio. All rights reserved

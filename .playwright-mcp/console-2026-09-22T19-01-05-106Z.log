@@ -1,0 +1,116 @@
+[      42ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:21548
+[      69ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[      70ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[   27281ms] ReferenceError: UserIcon is not defined
+    at Header (http://localhost:5173/src/components/Header.jsx?t=1790103692330:282:54)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14580:28)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15922:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3672:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3697:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3731:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19763:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+[   27283ms] ReferenceError: UserIcon is not defined
+    at Header (http://localhost:5173/src/components/Header.jsx?t=1790103692330:282:54)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14580:28)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15922:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3672:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3697:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3731:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19763:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+[   27283ms] [ERROR] The above error occurred in the <Header> component:
+
+    at Header (http://localhost:5173/src/components/Header.jsx?t=1790103692330:26:26)
+    at div
+    at App (http://localhost:5173/src/App.jsx?t=1790103680458:32:24)
+    at CartProvider (http://localhost:5173/src/context/CartContext.jsx:32:32)
+    at LanguageProvider (http://localhost:5173/src/context/LanguageContext.jsx?t=1790103664154:30:36)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4523:15)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:5261:5)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14029
+[   27284ms] ReferenceError: UserIcon is not defined
+    at Header (http://localhost:5173/src/components/Header.jsx?t=1790103692330:282:54)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14580:28)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15922:22)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19751:22)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+    at renderRootSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19114:15)
+    at recoverFromConcurrentError (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:18734:28)
+    at performSyncWorkOnRoot (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:18877:28)
+[   35126ms] ReferenceError: UserIcon is not defined
+    at Header (http://localhost:5173/src/components/Header.jsx?t=1790103700180:282:54)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14924:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15912:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3672:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3697:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3731:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19763:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+[   35128ms] ReferenceError: UserIcon is not defined
+    at Header (http://localhost:5173/src/components/Header.jsx?t=1790103700180:282:54)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14924:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15912:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3672:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3697:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3731:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19763:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+[   35130ms] [ERROR] The above error occurred in the <Header> component:
+
+    at Header (http://localhost:5173/src/components/Header.jsx?t=1790103700180:26:26)
+    at div
+    at App (http://localhost:5173/src/App.jsx?t=1790103680458:32:24)
+    at CartProvider (http://localhost:5173/src/context/CartContext.jsx:32:32)
+    at LanguageProvider (http://localhost:5173/src/context/LanguageContext.jsx?t=1790103664154:30:36)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4523:15)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:5261:5)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14029
+[   35130ms] ReferenceError: UserIcon is not defined
+    at Header (http://localhost:5173/src/components/Header.jsx?t=1790103700180:282:54)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14924:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15912:22)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19751:22)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+    at renderRootSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19114:15)
+    at recoverFromConcurrentError (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:18734:28)
+    at performSyncWorkOnRoot (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:18877:28)
+[   74031ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5173/@vite/client:559
+[   74033ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[   75036ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[   76038ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[   77041ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[   78044ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[   79048ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[   80051ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[   81052ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[   82055ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[   83058ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[   84060ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[   85062ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[   86065ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[   87068ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[   88070ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[   89073ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[   90077ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[   91080ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[   92082ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[   93086ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[   94089ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[   95092ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0

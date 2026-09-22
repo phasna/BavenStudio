@@ -1,0 +1,92 @@
+- generic [ref=f54e3]:
+  - banner [ref=f54e4]:
+    - generic [ref=f54e5]:
+      - link "Baven Studio — Accueil" [ref=f54e6] [cursor=pointer]:
+        - /url: /
+        - img "Baven Studio" [ref=f54e7]
+      - navigation [ref=f54e8]:
+        - list [ref=f54e9]:
+          - listitem [ref=f54e10]:
+            - link "Homme" [ref=f54e11] [cursor=pointer]:
+              - /url: /shop?gender=homme
+          - listitem [ref=f54e12]:
+            - link "Femme" [ref=f54e13] [cursor=pointer]:
+              - /url: /shop?gender=femme
+          - listitem [ref=f54e14]:
+            - link "Collection" [ref=f54e15] [cursor=pointer]:
+              - /url: /shop
+      - generic [ref=f54e16]:
+        - generic [ref=f54e17]:
+          - searchbox "Rechercher..." [ref=f54e18]
+          - button "Ouvrir la recherche" [ref=f54e19] [cursor=pointer]
+        - button "Switch language" [ref=f54e23] [cursor=pointer]: EN
+        - link "Panier (3)" [ref=f54e26] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=f54e27]: Panier
+          - generic [ref=f54e28]: "3"
+  - main [ref=f54e29]:
+    - generic [ref=f54e30]:
+      - heading "Paiement" [level=1] [ref=f54e31]
+      - generic [ref=f54e32]:
+        - generic [ref=f54e33]:
+          - generic [ref=f54e34]: "1"
+          - text: Livraison
+        - generic [ref=f54e35]: —
+        - generic [ref=f54e36]:
+          - generic [ref=f54e37]: "2"
+          - text: Paiement
+      - generic [ref=f54e38]:
+        - generic [ref=f54e101]:
+          - generic [ref=f54e102]:
+            - heading "Paiement" [level=2] [ref=f54e103]
+            - generic [ref=f54e104]:
+              - generic [ref=f54e105]:
+                - generic [ref=f54e106]: Nom sur la carte
+                - textbox "Nom sur la carte" [ref=f54e107]: MARIE DUPONT
+              - generic [ref=f54e108]:
+                - generic [ref=f54e109]: Numéro de carte
+                - textbox "Numéro de carte" [ref=f54e110]:
+                  - /placeholder: 0000 0000 0000 0000
+                  - text: 4242 4242 4242 4242
+              - generic [ref=f54e111]:
+                - generic [ref=f54e112]: Expiration
+                - textbox "Expiration" [ref=f54e113]:
+                  - /placeholder: MM/AA
+                  - text: 12/30
+              - generic [ref=f54e114]:
+                - generic [ref=f54e115]: CVC
+                - textbox "CVC" [ref=f54e116]:
+                  - /placeholder: "123"
+                  - text: "123"
+            - paragraph [ref=f54e117]: Simulation — aucune donnée bancaire n'est transmise (V1).
+          - generic [ref=f54e118]:
+            - button "Retour" [ref=f54e119] [cursor=pointer]
+            - button "Traitement..." [disabled] [ref=f54e121]
+        - complementary [ref=f54e66]:
+          - heading "Récapitulatif" [level=2] [ref=f54e67]
+          - generic [ref=f54e69]:
+            - generic [ref=f54e70]:
+              - text: Oversize Tee — Become
+              - generic [ref=f54e71]: × 3 · XS
+            - generic [ref=f54e72]: 135 €
+          - generic [ref=f54e73]:
+            - generic [ref=f54e74]:
+              - generic [ref=f54e75]: Sous-total
+              - generic [ref=f54e76]: 135 €
+            - generic [ref=f54e77]:
+              - generic [ref=f54e78]: Livraison
+              - generic [ref=f54e79]: 6 €
+            - generic [ref=f54e80]:
+              - generic [ref=f54e81]: Total
+              - generic [ref=f54e82]: 141 €
+          - link "Retour au panier" [ref=f54e83] [cursor=pointer]:
+            - /url: /cart
+  - contentinfo [ref=f54e84]:
+    - generic [ref=f54e85]:
+      - navigation [ref=f54e86]:
+        - generic [ref=f54e87]: Info
+        - generic [ref=f54e88]: Stockists
+        - generic [ref=f54e89]: Social
+        - generic [ref=f54e90]: Support
+        - generic [ref=f54e91]: Legal
+      - generic [ref=f54e92]: © 2021 – 2026 Baven Studio. All rights reserved

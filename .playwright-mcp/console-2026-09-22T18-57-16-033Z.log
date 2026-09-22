@@ -1,0 +1,176 @@
+[      58ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:21548
+[      92ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[      92ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[   55122ms] ReferenceError: LanguageDropdown is not defined
+    at Header (http://localhost:5173/src/components/Header.jsx?t=1790103491076:271:40)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14580:28)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15922:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3672:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3697:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3731:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19763:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+[   55122ms] ReferenceError: LanguageDropdown is not defined
+    at Header (http://localhost:5173/src/components/Header.jsx?t=1790103491076:271:40)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14580:28)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15922:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3672:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3697:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3731:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19763:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+[   55098ms] [ERROR] The above error occurred in the <Header> component:
+
+    at Header (http://localhost:5173/src/components/Header.jsx?t=1790103491076:26:26)
+    at div
+    at App (http://localhost:5173/src/App.jsx?t=1790103432765:31:24)
+    at CartProvider (http://localhost:5173/src/context/CartContext.jsx:32:32)
+    at LanguageProvider (http://localhost:5173/src/context/LanguageContext.jsx:30:36)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4523:15)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:5261:5)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14029
+[   55122ms] ReferenceError: LanguageDropdown is not defined
+    at Header (http://localhost:5173/src/components/Header.jsx?t=1790103491076:271:40)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14580:28)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15922:22)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19751:22)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+    at renderRootSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19114:15)
+    at recoverFromConcurrentError (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:18734:28)
+    at performSyncWorkOnRoot (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:18877:28)
+[   58512ms] ReferenceError: LanguageDropdown is not defined
+    at Header (http://localhost:5173/src/components/Header.jsx?t=1790103494494:271:40)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14924:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15912:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3672:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3697:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3731:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19763:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+[   58515ms] ReferenceError: LanguageDropdown is not defined
+    at Header (http://localhost:5173/src/components/Header.jsx?t=1790103494494:271:40)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14924:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15912:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3672:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3697:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3731:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19763:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+[   58517ms] [ERROR] The above error occurred in the <Header> component:
+
+    at Header (http://localhost:5173/src/components/Header.jsx?t=1790103494494:26:26)
+    at div
+    at App (http://localhost:5173/src/App.jsx?t=1790103432765:31:24)
+    at CartProvider (http://localhost:5173/src/context/CartContext.jsx:32:32)
+    at LanguageProvider (http://localhost:5173/src/context/LanguageContext.jsx:30:36)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4523:15)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:5261:5)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14029
+[   58517ms] ReferenceError: LanguageDropdown is not defined
+    at Header (http://localhost:5173/src/components/Header.jsx?t=1790103494494:271:40)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14924:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15912:22)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19751:22)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+    at renderRootSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19114:15)
+    at recoverFromConcurrentError (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:18734:28)
+    at performSyncWorkOnRoot (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:18877:28)
+[  134742ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5173/@vite/client:559
+[  134743ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  135746ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  136749ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  137753ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  138756ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  139759ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  140762ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  141765ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  142768ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  143771ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  144774ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  145778ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  146781ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  147783ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  148787ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  149790ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  150793ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  151795ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  152798ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  153802ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  154804ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  155808ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  156811ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  157813ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  158816ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  159820ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  160823ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  161826ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  162828ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  163831ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  164836ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  165839ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  166842ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  167845ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  168850ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  169852ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  170855ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  171858ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  172863ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  173866ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  174869ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  175871ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  176874ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  177877ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  178880ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  179882ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  180886ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  181889ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  182891ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  183895ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  184897ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  185901ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  186903ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  187906ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  188908ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  189912ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  190915ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  191918ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  192920ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  193923ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  194926ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  195928ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  196931ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  197934ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  198938ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  199941ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  200944ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  201946ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  202949ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  203951ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  204954ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  205958ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  206961ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  207964ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  208967ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  209969ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  211791ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:21548
+[  211817ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[  211817ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[  213628ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:21548
+[  213655ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[  213655ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414

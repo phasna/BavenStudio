@@ -1,0 +1,85 @@
+- generic [ref=f2e3]:
+  - banner [ref=f2e4]:
+    - generic [ref=f2e5]:
+      - link "Baven Studio — Accueil" [ref=f2e6] [cursor=pointer]:
+        - /url: /
+        - img "Baven Studio" [ref=f2e7]
+      - generic [ref=f2e8]:
+        - generic [ref=f2e9]:
+          - searchbox "Rechercher..." [ref=f2e10]
+          - button "Ouvrir la recherche" [ref=f2e11] [cursor=pointer]
+        - button "Switch language" [ref=f2e15] [cursor=pointer]: EN
+        - link "0" [ref=f2e16] [cursor=pointer]:
+          - /url: /cart
+        - button "Ouvrir le menu" [ref=f2e18] [cursor=pointer]
+  - main [ref=f2e20]:
+    - generic [ref=f2e21]:
+      - heading "Shop" [level=1] [ref=f2e22]
+      - generic [ref=f2e23]:
+        - button "Tout" [ref=f2e24] [cursor=pointer]
+        - button "Femme" [ref=f2e25] [cursor=pointer]
+        - button "Homme" [ref=f2e26] [cursor=pointer]
+      - generic [ref=f2e27]:
+        - link "Oversize Tee — Become 45 € T-Shirts" [ref=f2e28] [cursor=pointer]:
+          - /url: /produits/oversize-tee-become
+          - generic [ref=f2e30]:
+            - generic [ref=f2e31]: Oversize Tee — Become
+            - generic [ref=f2e32]: 45 €
+          - generic [ref=f2e33]: T-Shirts
+        - link "Essential Tee — B 39 € T-Shirts" [ref=f2e34] [cursor=pointer]:
+          - /url: /produits/essential-tee-b
+          - generic [ref=f2e36]:
+            - generic [ref=f2e37]: Essential Tee — B
+            - generic [ref=f2e38]: 39 €
+          - generic [ref=f2e39]: T-Shirts
+        - link "Signature Hoodie 89 € Hoodies" [ref=f2e40] [cursor=pointer]:
+          - /url: /produits/signature-hoodie
+          - generic [ref=f2e42]:
+            - generic [ref=f2e43]: Signature Hoodie
+            - generic [ref=f2e44]: 89 €
+          - generic [ref=f2e45]: Hoodies
+        - link "Evolve Hoodie 95 € Hoodies" [ref=f2e46] [cursor=pointer]:
+          - /url: /produits/evolve-hoodie
+          - generic [ref=f2e48]:
+            - generic [ref=f2e49]: Evolve Hoodie
+            - generic [ref=f2e50]: 95 €
+          - generic [ref=f2e51]: Hoodies
+        - link "Crewneck Sweatshirt 79 € Sweatshirts" [ref=f2e52] [cursor=pointer]:
+          - /url: /produits/crewneck-sweatshirt
+          - generic [ref=f2e54]:
+            - generic [ref=f2e55]: Crewneck Sweatshirt
+            - generic [ref=f2e56]: 79 €
+          - generic [ref=f2e57]: Sweatshirts
+        - link "New Drop Cap 35 € Casquettes" [ref=f2e58] [cursor=pointer]:
+          - /url: /produits/new-drop-cap
+          - generic [ref=f2e60]:
+            - generic [ref=f2e61]: New Drop Cap
+            - generic [ref=f2e62]: 35 €
+          - generic [ref=f2e63]: Casquettes
+        - link "Wide Cargo Pants 99 € Pantalons" [ref=f2e64] [cursor=pointer]:
+          - /url: /produits/wide-cargo-pants
+          - generic [ref=f2e66]:
+            - generic [ref=f2e67]: Wide Cargo Pants
+            - generic [ref=f2e68]: 99 €
+          - generic [ref=f2e69]: Pantalons
+        - link "Studio Track Jacket 129 € Vestes" [ref=f2e70] [cursor=pointer]:
+          - /url: /produits/studio-track-jacket
+          - generic [ref=f2e72]:
+            - generic [ref=f2e73]: Studio Track Jacket
+            - generic [ref=f2e74]: 129 €
+          - generic [ref=f2e75]: Vestes
+        - link "Tote Bag — Move Forward 25 € Accessoires" [ref=f2e76] [cursor=pointer]:
+          - /url: /produits/tote-bag-move-forward
+          - generic [ref=f2e78]:
+            - generic [ref=f2e79]: Tote Bag — Move Forward
+            - generic [ref=f2e80]: 25 €
+          - generic [ref=f2e81]: Accessoires
+  - contentinfo [ref=f2e82]:
+    - generic [ref=f2e83]:
+      - navigation [ref=f2e84]:
+        - generic [ref=f2e85]: Info
+        - generic [ref=f2e86]: Stockists
+        - generic [ref=f2e87]: Social
+        - generic [ref=f2e88]: Support
+        - generic [ref=f2e89]: Legal
+      - generic [ref=f2e90]: © 2021 – 2026 Baven Studio. All rights reserved

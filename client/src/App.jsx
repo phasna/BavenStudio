@@ -1,11 +1,14 @@
 import { Route, Routes, useLocation } from 'react-router-dom';
 import Header, { HEADER_HEIGHT } from './components/Header.jsx';
 import Footer from './components/Footer.jsx';
+import CookieBanner from './components/CookieBanner.jsx';
 import Home from './pages/Home.jsx';
 import Shop from './pages/Shop.jsx';
 import ProductDetail from './pages/ProductDetail.jsx';
 import Cart from './pages/Cart.jsx';
 import Checkout from './pages/Checkout.jsx';
+import FooterInfo from './pages/FooterInfo.jsx';
+import Login from './pages/Login.jsx';
 import NotFound from './pages/NotFound.jsx';
 
 export default function App() {
@@ -22,10 +25,13 @@ export default function App() {
           <Route path="/produits/:slug" element={<ProductDetail />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/checkout" element={<Checkout />} />
+          <Route path="/info/:topic" element={<FooterInfo />} />
+          <Route path="/login" element={<Login />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       <Footer />
+      <CookieBanner />
     </div>
   );
 }

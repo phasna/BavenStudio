@@ -1,7 +1,10 @@
 import { Link } from 'react-router-dom';
 import { getFallbackImage } from '../lib/placeholderImages.js';
+import { useLanguage } from '../context/LanguageContext.jsx';
+import { translateCategoryName } from '../lib/productTranslations.js';
 
 export default function ProductCard({ product }) {
+  const { language } = useLanguage();
   const image = product.images?.[0] || getFallbackImage(product);
 
   return (
@@ -11,7 +14,7 @@ export default function ProductCard({ product }) {
           aspectRatio: '4 / 5',
           backgroundImage: `url(${image})`,
           backgroundSize: 'cover',
-          backgroundPosition: 'center',
+          backgroundPosition: 'top',
           marginBottom: 12,
         }}
       />
@@ -21,7 +24,7 @@ export default function ProductCard({ product }) {
       </div>
       {product.category?.name && (
         <span className="eyebrow" style={{ display: 'block', marginTop: 4 }}>
-          {product.category.name}
+          {translateCategoryName(product.category, language)}
         </span>
       )}
     </Link>

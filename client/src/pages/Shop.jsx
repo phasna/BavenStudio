@@ -32,8 +32,8 @@ export default function Shop() {
   }
 
   return (
-    <div className="container section">
-      <h1 style={{ fontSize: 'clamp(32px, 5vw, 56px)', marginBottom: activeSearch ? 12 : 32 }}>
+    <div className="container section shop-page">
+      <h1 style={{ fontSize: 'clamp(26px, 3.5vw, 40px)', fontWeight: 300, marginBottom: activeSearch ? 12 : 32 }}>
         Shop{activeGender ? ` — ${activeGender === 'femme' ? t('gender.women') : t('gender.men')}` : ''}
       </h1>
 
@@ -96,6 +96,15 @@ export default function Shop() {
           <ProductCard key={product.id} product={product} />
         ))}
       </div>
+
+      <style>{`
+        @media (max-width: 640px) {
+          .shop-page {
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+          }
+        }
+      `}</style>
     </div>
   );
 }

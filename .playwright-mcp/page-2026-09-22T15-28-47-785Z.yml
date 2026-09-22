@@ -1,0 +1,53 @@
+- generic [ref=f24e3]:
+  - banner [ref=f24e4]:
+    - generic [ref=f24e5]:
+      - link "Baven Studio — Accueil" [ref=f24e6] [cursor=pointer]:
+        - /url: /
+        - img "Baven Studio" [ref=f24e7]
+      - generic [ref=f24e8]:
+        - button "Switch language" [ref=f24e9] [cursor=pointer]: EN
+        - link "Panier (3)" [ref=f24e12] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=f24e13]: "3"
+        - button "Ouvrir le menu" [ref=f24e19] [cursor=pointer]
+    - navigation [aria-hidden] [ref=f24e21]:
+      - generic [ref=f24e22]:
+        - generic [ref=f24e23]:
+          - link [ref=f24e24] [cursor=pointer]:
+            - /url: /
+          - button [ref=f24e26] [cursor=pointer]
+        - list [ref=f24e30]:
+          - listitem [ref=f24e31]:
+            - link [ref=f24e32] [cursor=pointer]:
+              - /url: /shop?gender=homme
+              - text: Homme
+          - listitem [ref=f24e33]:
+            - link [ref=f24e34] [cursor=pointer]:
+              - /url: /shop?gender=femme
+              - text: Femme
+          - listitem [ref=f24e35]:
+            - link [ref=f24e36] [cursor=pointer]:
+              - /url: /shop
+              - text: Collection
+        - generic [ref=f24e37]:
+          - button [ref=f24e38] [cursor=pointer]: EN
+          - link [ref=f24e41] [cursor=pointer]:
+            - /url: /cart
+            - text: Panier (3)
+  - main [ref=f24e46]:
+    - generic [ref=f24e47]:
+      - heading "Shop" [level=1] [ref=f24e48]
+      - generic [ref=f24e49]:
+        - button "Tout" [ref=f24e50] [cursor=pointer]
+        - button "Femme" [ref=f24e51] [cursor=pointer]
+        - button "Homme" [ref=f24e52] [cursor=pointer]
+      - paragraph [ref=f24e53]: Aucun produit ne correspond à cette sélection pour le moment.
+  - contentinfo [ref=f24e54]:
+    - generic [ref=f24e55]:
+      - navigation [ref=f24e56]:
+        - generic [ref=f24e57]: Info
+        - generic [ref=f24e58]: Stockists
+        - generic [ref=f24e59]: Social
+        - generic [ref=f24e60]: Support
+        - generic [ref=f24e61]: Legal
+      - generic [ref=f24e62]: © 2021 – 2026 Baven Studio. All rights reserved

@@ -1,0 +1,50 @@
+- generic [ref=f7e3]:
+  - banner [ref=f7e4]:
+    - generic [ref=f7e5]:
+      - link "Baven Studio — Accueil" [ref=f7e6] [cursor=pointer]:
+        - /url: /
+        - img "Baven Studio" [ref=f7e7]
+      - generic [ref=f7e8]:
+        - button "Switch language" [ref=f7e9] [cursor=pointer]: EN
+        - link "Panier (0)" [ref=f7e10] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=f7e16]: "0"
+        - button "Ouvrir le menu" [ref=f7e17] [cursor=pointer]
+    - navigation [aria-hidden] [ref=f7e19]:
+      - generic [ref=f7e20]:
+        - generic [ref=f7e21]:
+          - link [ref=f7e22] [cursor=pointer]:
+            - /url: /
+          - button [ref=f7e24] [cursor=pointer]
+        - searchbox [ref=f7e33]
+        - list [ref=f7e34]:
+          - listitem [ref=f7e35]:
+            - link [ref=f7e36] [cursor=pointer]:
+              - /url: /
+              - text: Accueil
+          - listitem [ref=f7e37]:
+            - link [ref=f7e38] [cursor=pointer]:
+              - /url: /shop
+              - text: Shop
+        - generic [ref=f7e39]:
+          - button [ref=f7e40] [cursor=pointer]: EN
+          - link [ref=f7e41] [cursor=pointer]:
+            - /url: /cart
+            - text: Panier (0)
+  - main [ref=f7e42]:
+    - generic [ref=f7e43]:
+      - heading "Shop" [level=1] [ref=f7e44]
+      - generic [ref=f7e45]:
+        - button "Tout" [ref=f7e46] [cursor=pointer]
+        - button "Femme" [ref=f7e47] [cursor=pointer]
+        - button "Homme" [ref=f7e48] [cursor=pointer]
+      - paragraph [ref=f7e49]: Aucun produit ne correspond à cette sélection pour le moment.
+  - contentinfo [ref=f7e50]:
+    - generic [ref=f7e51]:
+      - navigation [ref=f7e52]:
+        - generic [ref=f7e53]: Info
+        - generic [ref=f7e54]: Stockists
+        - generic [ref=f7e55]: Social
+        - generic [ref=f7e56]: Support
+        - generic [ref=f7e57]: Legal
+      - generic [ref=f7e58]: © 2021 – 2026 Baven Studio. All rights reserved

@@ -1,0 +1,59 @@
+- generic [ref=f63e3]:
+  - banner [ref=f63e4]:
+    - generic [ref=f63e5]:
+      - link "Baven Studio — Accueil" [ref=f63e6] [cursor=pointer]:
+        - /url: /
+        - img "Baven Studio" [ref=f63e7]
+      - navigation [ref=f63e8]:
+        - list [ref=f63e9]:
+          - listitem [ref=f63e10]:
+            - link "Homme" [ref=f63e11] [cursor=pointer]:
+              - /url: /shop?gender=homme
+          - listitem [ref=f63e12]:
+            - link "Femme" [ref=f63e13] [cursor=pointer]:
+              - /url: /shop?gender=femme
+          - listitem [ref=f63e14]:
+            - link "Collection" [ref=f63e15] [cursor=pointer]:
+              - /url: /shop
+      - generic [ref=f63e16]:
+        - generic [ref=f63e17]:
+          - searchbox "Rechercher..." [ref=f63e18]
+          - button "Ouvrir la recherche" [ref=f63e19] [cursor=pointer]
+        - button "Switch language" [ref=f63e24] [cursor=pointer]: FR
+        - link "Panier (0)" [ref=f63e28] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=f63e29]: Panier
+          - generic [ref=f63e30]: "0"
+  - main [ref=f63e31]:
+    - generic [ref=f63e32]:
+      - heading "Support" [level=1] [ref=f63e33]
+      - generic [ref=f63e34]:
+        - generic [ref=f63e35]:
+          - heading "Livraison" [level=2] [ref=f63e36]
+          - paragraph [ref=f63e37]: Livraison estimée en 3 à 5 jours ouvrés en France métropolitaine (6 € forfaitaires, offerte dès 150 € d'achat). Un numéro de suivi est envoyé par email dès l'expédition de votre commande.
+        - generic [ref=f63e38]:
+          - heading "Retours & échanges" [level=2] [ref=f63e39]
+          - paragraph [ref=f63e40]: Retours gratuits sous 30 jours à compter de la réception, article non porté, non lavé et étiquette d'origine conservée. Le remboursement est effectué sur le moyen de paiement utilisé lors de la commande, sous 14 jours après réception du retour.
+        - generic [ref=f63e41]:
+          - heading "Guide des tailles" [level=2] [ref=f63e42]
+          - paragraph [ref=f63e43]: Un guide des tailles détaillé (tour de poitrine, longueur) est disponible sur chaque fiche produit, dans la section « Guide des tailles ». En cas de doute entre deux tailles, nous recommandons de prendre la taille au-dessus pour nos coupes oversize.
+        - generic [ref=f63e44]:
+          - heading "Paiement" [level=2] [ref=f63e45]
+          - paragraph [ref=f63e46]: Paiement sécurisé par carte bancaire (Visa, Mastercard, American Express). Aucune donnée bancaire n'est stockée sur nos serveurs.
+        - generic [ref=f63e47]:
+          - heading "Nous contacter" [level=2] [ref=f63e48]
+          - paragraph [ref=f63e49]: Pour toute question relative à une commande, une taille ou un retour, notre équipe vous répond sous 48h ouvrées à support@bavenstudio.com.
+  - contentinfo [ref=f63e50]:
+    - generic [ref=f63e51]:
+      - navigation [ref=f63e52]:
+        - link "Info" [ref=f63e53] [cursor=pointer]:
+          - /url: /info/info
+        - link "Stockists" [ref=f63e54] [cursor=pointer]:
+          - /url: /info/stockists
+        - link "Social" [ref=f63e55] [cursor=pointer]:
+          - /url: /info/social
+        - link "Support" [ref=f63e56] [cursor=pointer]:
+          - /url: /info/support
+        - link "Legal" [ref=f63e57] [cursor=pointer]:
+          - /url: /info/legal
+      - generic [ref=f63e58]: © 2021 – 2026 Baven Studio. All rights reserved

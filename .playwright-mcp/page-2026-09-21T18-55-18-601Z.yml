@@ -1,0 +1,45 @@
+- generic [ref=f6e3]:
+  - banner [ref=f6e4]:
+    - generic [ref=f6e5]:
+      - link "Baven Studio — Accueil" [ref=f6e6] [cursor=pointer]:
+        - /url: /
+        - img "Baven Studio" [ref=f6e7]
+      - generic [ref=f6e8]:
+        - button "Switch language" [ref=f6e9] [cursor=pointer]: EN
+        - link "Panier (0)" [ref=f6e10] [cursor=pointer]:
+          - /url: /cart
+        - button "Ouvrir le menu" [ref=f6e16] [cursor=pointer]
+    - navigation [aria-hidden] [ref=f6e18]:
+      - generic [ref=f6e19]:
+        - generic [ref=f6e20]:
+          - link [ref=f6e21] [cursor=pointer]:
+            - /url: /
+          - button [ref=f6e23] [cursor=pointer]
+        - list [ref=f6e27]:
+          - listitem [ref=f6e28]:
+            - link [ref=f6e29] [cursor=pointer]:
+              - /url: /
+              - text: Accueil
+          - listitem [ref=f6e30]:
+            - link [ref=f6e31] [cursor=pointer]:
+              - /url: /shop
+              - text: Shop
+        - generic [ref=f6e32]:
+          - button [ref=f6e33] [cursor=pointer]: EN
+          - link [ref=f6e34] [cursor=pointer]:
+            - /url: /cart
+            - text: Panier (0)
+  - main [ref=f6e39]:
+    - generic [ref=f6e40]:
+      - heading "Votre panier est vide" [level=1] [ref=f6e41]
+      - link "Retour au shop" [ref=f6e42] [cursor=pointer]:
+        - /url: /shop
+  - contentinfo [ref=f6e43]:
+    - generic [ref=f6e44]:
+      - navigation [ref=f6e45]:
+        - generic [ref=f6e46]: Info
+        - generic [ref=f6e47]: Stockists
+        - generic [ref=f6e48]: Social
+        - generic [ref=f6e49]: Support
+        - generic [ref=f6e50]: Legal
+      - generic [ref=f6e51]: © 2021 – 2026 Baven Studio. All rights reserved

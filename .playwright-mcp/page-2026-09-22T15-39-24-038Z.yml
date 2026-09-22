@@ -1,0 +1,50 @@
+- generic [ref=f45e3]:
+  - banner [ref=f45e4]:
+    - generic [ref=f45e5]:
+      - link "Baven Studio — Accueil" [ref=f45e6] [cursor=pointer]:
+        - /url: /
+        - img "Baven Studio" [ref=f45e7]
+      - navigation [ref=f45e8]:
+        - list [ref=f45e9]:
+          - listitem [ref=f45e10]:
+            - link "Homme" [ref=f45e11] [cursor=pointer]:
+              - /url: /shop?gender=homme
+          - listitem [ref=f45e12]:
+            - link "Femme" [ref=f45e13] [cursor=pointer]:
+              - /url: /shop?gender=femme
+          - listitem [ref=f45e14]:
+            - link "Collection" [ref=f45e15] [cursor=pointer]:
+              - /url: /shop
+      - generic [ref=f45e16]:
+        - generic [ref=f45e17]:
+          - searchbox "Rechercher..." [ref=f45e18]
+          - button "Ouvrir la recherche" [ref=f45e19] [cursor=pointer]
+        - button "Switch language" [ref=f45e23] [cursor=pointer]: EN
+        - link "Panier (3)" [ref=f45e26] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=f45e27]: Panier
+          - generic [ref=f45e28]: "3"
+  - main [ref=f45e29]:
+    - generic [ref=f45e30]:
+      - heading "Shop" [level=1] [ref=f45e31]
+      - generic [ref=f45e32]:
+        - button "Tout" [ref=f45e33] [cursor=pointer]
+        - button "Femme" [ref=f45e34] [cursor=pointer]
+        - button "Homme" [ref=f45e35] [cursor=pointer]
+      - paragraph [ref=f45e36]: Aucun produit ne correspond à cette sélection pour le moment.
+  - contentinfo [ref=f45e37]:
+    - generic [ref=f45e38]:
+      - navigation [ref=f45e39]:
+        - generic [ref=f45e40]: Info
+        - generic [ref=f45e41]: Stockists
+        - generic [ref=f45e42]: Social
+        - generic [ref=f45e43]: Support
+        - generic [ref=f45e44]: Legal
+      - generic [ref=f45e45]: © 2021 – 2026 Baven Studio. All rights reserved
+  - generic [ref=f45e47]:
+    - button "Continuer sans accepter" [ref=f45e48] [cursor=pointer]
+    - heading "Cookies" [level=2] [ref=f45e49]
+    - paragraph [ref=f45e50]: Pour vous offrir une meilleure expérience, ce site utilise des cookies internes et tiers. En sélectionnant « Tout accepter », vous consentez à leur utilisation. Pour en savoir plus ou choisir vos préférences, cliquez sur « Gérer les préférences » ou consultez notre politique de confidentialité et notre politique de cookies.
+    - generic [ref=f45e51]:
+      - button "Tout accepter" [ref=f45e52] [cursor=pointer]
+      - button "Gérer les préférences" [ref=f45e53] [cursor=pointer]

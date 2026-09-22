@@ -6,6 +6,7 @@ import { getFallbackImage } from "../lib/placeholderImages.js";
 import Accordion from "../components/Accordion.jsx";
 import ProductCard from "../components/ProductCard.jsx";
 import { useLanguage } from "../context/LanguageContext.jsx";
+import { translateCategoryName, translateProductDescription } from "../lib/productTranslations.js";
 
 const SIZE_GUIDE_ROWS = [
   { size: "XS", chest: "88", length: "66" },
@@ -19,7 +20,7 @@ export default function ProductDetail() {
   const { slug } = useParams();
   const navigate = useNavigate();
   const { addItem } = useCart();
-  const { t } = useLanguage();
+  const { language, t } = useLanguage();
 
   const [product, setProduct] = useState(null);
   const [related, setRelated] = useState([]);
@@ -42,9 +43,14 @@ export default function ProductDetail() {
   }, [slug]);
 
   useEffect(() => {
-    if (!product?.category?.slug) return;
-    getProducts({ category: product.category.slug })
-      .then((data) => setRelated(data.filter((p) => p.slug !== product.slug).slice(0, 4)))
+    if (!product?.slug) return;
+    getProducts()
+      .then((data) => {
+        const others = data.filter((p) => p.slug !== product.slug);
+        const sameCategory = others.filter((p) => p.category?.slug === product.category?.slug);
+        const rest = others.filter((p) => p.category?.slug !== product.category?.slug);
+        setRelated([...sameCategory, ...rest].slice(0, 8));
+      })
       .catch(() => setRelated([]));
   }, [product?.category?.slug, product?.slug]);
 
@@ -69,12 +75,14 @@ export default function ProductDetail() {
     setAdded(true);
   }
 
+  const description = translateProductDescription(product, language);
+
   const accordionItems = [
     {
       title: t("product.detailsTitle"),
       content: (
         <>
-          <p style={{ marginBottom: 12 }}>{product.description}</p>
+          <p style={{ marginBottom: 12 }}>{description}</p>
           <p>{t("product.careInstructions")}</p>
         </>
       ),
@@ -124,16 +132,19 @@ export default function ProductDetail() {
         }}
       >
         <div
+          className="product-detail-image"
           style={{
             aspectRatio: "4 / 5",
             backgroundImage: `url(${product.images?.[0] || getFallbackImage(product)})`,
             backgroundSize: "cover",
-            backgroundPosition: "center",
+            backgroundPosition: "top",
           }}
         />
 
         <div>
-          {product.category?.name && <span className="eyebrow">{product.category.name}</span>}
+          {product.category?.name && (
+            <span className="eyebrow">{translateCategoryName(product.category, language)}</span>
+          )}
           <h1
             style={{ fontSize: "clamp(28px, 4vw, 44px)", margin: "12px 0 8px" }}
           >
@@ -149,7 +160,7 @@ export default function ProductDetail() {
               maxWidth: 440,
             }}
           >
-            {product.description}
+            {description}
           </p>
 
           {product.sizes?.length > 0 && (
@@ -263,6 +274,10 @@ export default function ProductDetail() {
             grid-template-columns: 1fr !important;
             gap: 32px !important;
           }
+          .product-detail-image {
+            aspect-ratio: 1 / 1 !important;
+            max-height: 60vh;
+          }
         }
       `}</style>
 
@@ -271,13 +286,7 @@ export default function ProductDetail() {
           <h2 style={{ fontSize: "clamp(22px, 3vw, 32px)", marginBottom: 32 }}>
             {t("product.relatedTitle")}
           </h2>
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))",
-              gap: 32,
-            }}
-          >
+          <div className="product-grid">
             {related.map((p) => (
               <ProductCard key={p.id} product={p} />
             ))}

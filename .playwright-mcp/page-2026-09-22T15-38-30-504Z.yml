@@ -1,0 +1,104 @@
+- generic [ref=f39e3]:
+  - banner [ref=f39e4]:
+    - generic [ref=f39e5]:
+      - link "Baven Studio — Accueil" [ref=f39e6] [cursor=pointer]:
+        - /url: /
+        - img "Baven Studio" [ref=f39e7]
+      - navigation [ref=f39e8]:
+        - list [ref=f39e9]:
+          - listitem [ref=f39e10]:
+            - link "Homme" [ref=f39e11] [cursor=pointer]:
+              - /url: /shop?gender=homme
+          - listitem [ref=f39e12]:
+            - link "Femme" [ref=f39e13] [cursor=pointer]:
+              - /url: /shop?gender=femme
+          - listitem [ref=f39e14]:
+            - link "Collection" [ref=f39e15] [cursor=pointer]:
+              - /url: /shop
+      - generic [ref=f39e16]:
+        - generic [ref=f39e17]:
+          - searchbox "Rechercher..." [ref=f39e18]
+          - button "Ouvrir la recherche" [ref=f39e19] [cursor=pointer]
+        - button "Switch language" [ref=f39e23] [cursor=pointer]: EN
+        - link "Panier (3)" [ref=f39e26] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=f39e27]: Panier
+          - generic [ref=f39e28]: "3"
+  - main [ref=f39e29]:
+    - generic [ref=f39e30]:
+      - heading "Shop" [level=1] [ref=f39e31]
+      - generic [ref=f39e32]:
+        - button "Tout" [ref=f39e33] [cursor=pointer]
+        - button "Femme" [ref=f39e34] [cursor=pointer]
+        - button "Homme" [ref=f39e35] [cursor=pointer]
+      - generic [ref=f39e36]:
+        - link "Oversize Tee — Become 45 € T-Shirts" [ref=f39e37] [cursor=pointer]:
+          - /url: /produits/oversize-tee-become
+          - generic [ref=f39e39]:
+            - generic [ref=f39e40]: Oversize Tee — Become
+            - generic [ref=f39e41]: 45 €
+          - generic [ref=f39e42]: T-Shirts
+        - link "Essential Tee — B 39 € T-Shirts" [ref=f39e43] [cursor=pointer]:
+          - /url: /produits/essential-tee-b
+          - generic [ref=f39e45]:
+            - generic [ref=f39e46]: Essential Tee — B
+            - generic [ref=f39e47]: 39 €
+          - generic [ref=f39e48]: T-Shirts
+        - link "Signature Hoodie 89 € Hoodies" [ref=f39e49] [cursor=pointer]:
+          - /url: /produits/signature-hoodie
+          - generic [ref=f39e51]:
+            - generic [ref=f39e52]: Signature Hoodie
+            - generic [ref=f39e53]: 89 €
+          - generic [ref=f39e54]: Hoodies
+        - link "Evolve Hoodie 95 € Hoodies" [ref=f39e55] [cursor=pointer]:
+          - /url: /produits/evolve-hoodie
+          - generic [ref=f39e57]:
+            - generic [ref=f39e58]: Evolve Hoodie
+            - generic [ref=f39e59]: 95 €
+          - generic [ref=f39e60]: Hoodies
+        - link "Crewneck Sweatshirt 79 € Sweatshirts" [ref=f39e61] [cursor=pointer]:
+          - /url: /produits/crewneck-sweatshirt
+          - generic [ref=f39e63]:
+            - generic [ref=f39e64]: Crewneck Sweatshirt
+            - generic [ref=f39e65]: 79 €
+          - generic [ref=f39e66]: Sweatshirts
+        - link "New Drop Cap 35 € Casquettes" [ref=f39e67] [cursor=pointer]:
+          - /url: /produits/new-drop-cap
+          - generic [ref=f39e69]:
+            - generic [ref=f39e70]: New Drop Cap
+            - generic [ref=f39e71]: 35 €
+          - generic [ref=f39e72]: Casquettes
+        - link "Wide Cargo Pants 99 € Pantalons" [ref=f39e73] [cursor=pointer]:
+          - /url: /produits/wide-cargo-pants
+          - generic [ref=f39e75]:
+            - generic [ref=f39e76]: Wide Cargo Pants
+            - generic [ref=f39e77]: 99 €
+          - generic [ref=f39e78]: Pantalons
+        - link "Studio Track Jacket 129 € Vestes" [ref=f39e79] [cursor=pointer]:
+          - /url: /produits/studio-track-jacket
+          - generic [ref=f39e81]:
+            - generic [ref=f39e82]: Studio Track Jacket
+            - generic [ref=f39e83]: 129 €
+          - generic [ref=f39e84]: Vestes
+        - link "Tote Bag — Move Forward 25 € Accessoires" [ref=f39e85] [cursor=pointer]:
+          - /url: /produits/tote-bag-move-forward
+          - generic [ref=f39e87]:
+            - generic [ref=f39e88]: Tote Bag — Move Forward
+            - generic [ref=f39e89]: 25 €
+          - generic [ref=f39e90]: Accessoires
+  - contentinfo [ref=f39e91]:
+    - generic [ref=f39e92]:
+      - navigation [ref=f39e93]:
+        - generic [ref=f39e94]: Info
+        - generic [ref=f39e95]: Stockists
+        - generic [ref=f39e96]: Social
+        - generic [ref=f39e97]: Support
+        - generic [ref=f39e98]: Legal
+      - generic [ref=f39e99]: © 2021 – 2026 Baven Studio. All rights reserved
+  - generic [ref=f39e101]:
+    - button "Continuer sans accepter" [ref=f39e102] [cursor=pointer]
+    - heading "Cookies" [level=2] [ref=f39e103]
+    - paragraph [ref=f39e104]: Pour vous offrir une meilleure expérience, ce site utilise des cookies internes et tiers. En sélectionnant « Tout accepter », vous consentez à leur utilisation. Pour en savoir plus ou choisir vos préférences, cliquez sur « Gérer les préférences » ou consultez notre politique de confidentialité et notre politique de cookies.
+    - generic [ref=f39e105]:
+      - button "Tout accepter" [ref=f39e106] [cursor=pointer]
+      - button "Gérer les préférences" [ref=f39e107] [cursor=pointer]

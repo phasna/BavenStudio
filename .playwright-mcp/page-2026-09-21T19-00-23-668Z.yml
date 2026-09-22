@@ -1,0 +1,69 @@
+- generic [ref=f14e3]:
+  - banner [ref=f14e4]:
+    - generic [ref=f14e5]:
+      - link "Baven Studio — Accueil" [ref=f14e6] [cursor=pointer]:
+        - /url: /
+        - img "Baven Studio" [ref=f14e7]
+      - generic [ref=f14e8]:
+        - button "Switch language" [ref=f14e9] [cursor=pointer]: EN
+        - link "Panier (1)" [ref=f14e10] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=f14e11]: "1"
+        - button "Ouvrir le menu" [ref=f14e17] [cursor=pointer]
+    - navigation [aria-hidden] [ref=f14e19]:
+      - generic [ref=f14e20]:
+        - generic [ref=f14e21]:
+          - link [ref=f14e22] [cursor=pointer]:
+            - /url: /
+          - button [ref=f14e24] [cursor=pointer]
+        - list [ref=f14e28]:
+          - listitem [ref=f14e29]:
+            - link [ref=f14e30] [cursor=pointer]:
+              - /url: /
+              - text: Accueil
+          - listitem [ref=f14e31]:
+            - link [ref=f14e32] [cursor=pointer]:
+              - /url: /shop
+              - text: Shop
+        - generic [ref=f14e33]:
+          - button [ref=f14e34] [cursor=pointer]: EN
+          - link [ref=f14e35] [cursor=pointer]:
+            - /url: /cart
+            - text: Panier (1)
+  - main [ref=f14e40]:
+    - generic [ref=f14e41]:
+      - heading "Panier" [level=1] [ref=f14e42]
+      - generic [ref=f14e44]:
+        - link [ref=f14e45] [cursor=pointer]:
+          - /url: /produits/oversize-tee-become
+        - generic [ref=f14e47]:
+          - link "Oversize Tee — Become" [ref=f14e48] [cursor=pointer]:
+            - /url: /produits/oversize-tee-become
+          - generic [ref=f14e49]: XS · Baven Ink
+        - generic [ref=f14e50]:
+          - combobox [ref=f14e51] [cursor=pointer]:
+            - option "1" [selected]
+            - option "2"
+            - option "3"
+            - option "4"
+            - option "5"
+            - option "6"
+            - option "7"
+            - option "8"
+            - option "9"
+            - option "10"
+          - generic [ref=f14e52]: 45 €
+          - button "Retirer" [ref=f14e53] [cursor=pointer]
+      - generic [ref=f14e54]:
+        - generic [ref=f14e55]: "Total : 45 €"
+        - link "Commander" [ref=f14e56] [cursor=pointer]:
+          - /url: /checkout
+  - contentinfo [ref=f14e57]:
+    - generic [ref=f14e58]:
+      - navigation [ref=f14e59]:
+        - generic [ref=f14e60]: Info
+        - generic [ref=f14e61]: Stockists
+        - generic [ref=f14e62]: Social
+        - generic [ref=f14e63]: Support
+        - generic [ref=f14e64]: Legal
+      - generic [ref=f14e65]: © 2021 – 2026 Baven Studio. All rights reserved

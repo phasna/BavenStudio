@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const LINKS = ['Info', 'Stockists', 'Social', 'Support', 'Legal'];
 
 export default function Footer() {
@@ -19,7 +21,9 @@ export default function Footer() {
       >
         <nav style={{ display: 'flex', flexWrap: 'wrap', gap: 32 }}>
           {LINKS.map((link) => (
-            <span key={link}>{link}</span>
+            <Link key={link} to={`/info/${link.toLowerCase()}`} style={{ color: 'inherit' }}>
+              {link}
+            </Link>
           ))}
         </nav>
 

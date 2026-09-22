@@ -1,0 +1,62 @@
+- generic [ref=f61e3]:
+  - banner [ref=f61e4]:
+    - generic [ref=f61e5]:
+      - link "Baven Studio — Accueil" [ref=f61e6] [cursor=pointer]:
+        - /url: /
+        - img "Baven Studio" [ref=f61e7]
+      - navigation [ref=f61e8]:
+        - list [ref=f61e9]:
+          - listitem [ref=f61e10]:
+            - link "Homme" [ref=f61e11] [cursor=pointer]:
+              - /url: /shop?gender=homme
+          - listitem [ref=f61e12]:
+            - link "Femme" [ref=f61e13] [cursor=pointer]:
+              - /url: /shop?gender=femme
+          - listitem [ref=f61e14]:
+            - link "Collection" [ref=f61e15] [cursor=pointer]:
+              - /url: /shop
+      - generic [ref=f61e16]:
+        - generic [ref=f61e17]:
+          - searchbox "Rechercher..." [ref=f61e18]
+          - button "Ouvrir la recherche" [ref=f61e19] [cursor=pointer]
+        - button "Switch language" [ref=f61e24] [cursor=pointer]: FR
+        - link "Panier (0)" [ref=f61e28] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=f61e29]: Panier
+          - generic [ref=f61e30]: "0"
+  - main [ref=f61e31]:
+    - generic [ref=f61e32]:
+      - heading "Legal" [level=1] [ref=f61e33]
+      - generic [ref=f61e34]:
+        - generic [ref=f61e35]:
+          - heading "Éditeur du site" [level=2] [ref=f61e36]
+          - paragraph [ref=f61e37]: "Baven Studio SAS, société par actions simplifiée au capital de [montant] euros, immatriculée au Registre du Commerce et des Sociétés sous le numéro SIRET [à compléter], dont le siège social est situé [adresse à compléter]. Directeur de la publication : [nom à compléter]. Contact : legal@bavenstudio.com."
+        - generic [ref=f61e38]:
+          - heading "Hébergement" [level=2] [ref=f61e39]
+          - paragraph [ref=f61e40]: Ce site est hébergé par [nom de l'hébergeur], [adresse de l'hébergeur].
+        - generic [ref=f61e41]:
+          - heading "Propriété intellectuelle" [level=2] [ref=f61e42]
+          - paragraph [ref=f61e43]: L'ensemble des contenus présents sur ce site (textes, images, logos, mises en page) sont la propriété exclusive de Baven Studio ou de ses partenaires, sauf mention contraire. Toute reproduction, représentation ou exploitation, totale ou partielle, sans autorisation préalable est interdite.
+        - generic [ref=f61e44]:
+          - heading "Données personnelles" [level=2] [ref=f61e45]
+          - paragraph [ref=f61e46]: Conformément au Règlement Général sur la Protection des Données (RGPD), vous disposez d'un droit d'accès, de rectification, d'effacement et de portabilité de vos données personnelles, ainsi que d'un droit d'opposition et de limitation du traitement. Ces droits peuvent être exercés à l'adresse privacy@bavenstudio.com.
+        - generic [ref=f61e47]:
+          - heading "Cookies" [level=2] [ref=f61e48]
+          - paragraph [ref=f61e49]: Ce site utilise des cookies nécessaires au fonctionnement du panier et, sous réserve de votre consentement, des cookies analytiques et marketing. Vous pouvez modifier vos préférences à tout moment depuis le bandeau cookies affiché en bas de page.
+        - generic [ref=f61e50]:
+          - heading "Droit applicable et litiges" [level=2] [ref=f61e51]
+          - paragraph [ref=f61e52]: Les présentes mentions légales sont soumises au droit français. En cas de litige, une solution amiable sera recherchée avant toute action judiciaire. À défaut d'accord, les tribunaux français seront seuls compétents.
+  - contentinfo [ref=f61e53]:
+    - generic [ref=f61e54]:
+      - navigation [ref=f61e55]:
+        - link "Info" [ref=f61e56] [cursor=pointer]:
+          - /url: /info/info
+        - link "Stockists" [ref=f61e57] [cursor=pointer]:
+          - /url: /info/stockists
+        - link "Social" [ref=f61e58] [cursor=pointer]:
+          - /url: /info/social
+        - link "Support" [ref=f61e59] [cursor=pointer]:
+          - /url: /info/support
+        - link "Legal" [ref=f61e60] [cursor=pointer]:
+          - /url: /info/legal
+      - generic [ref=f61e61]: © 2021 – 2026 Baven Studio. All rights reserved

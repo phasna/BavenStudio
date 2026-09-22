@@ -1,0 +1,146 @@
+[      55ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:21548
+[      78ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[      78ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[   75529ms] ReferenceError: CartIcon is not defined
+    at Header (http://localhost:5173/src/components/Header.jsx?t=1790015399912:320:48)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14580:28)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15922:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3672:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3697:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3731:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19763:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+[   75532ms] ReferenceError: CartIcon is not defined
+    at Header (http://localhost:5173/src/components/Header.jsx?t=1790015399912:320:48)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14580:28)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15922:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3672:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3697:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3731:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19763:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+[   75532ms] [ERROR] The above error occurred in the <Header> component:
+
+    at Header (http://localhost:5173/src/components/Header.jsx?t=1790015399912:27:26)
+    at div
+    at App (http://localhost:5173/src/App.jsx:29:24)
+    at CartProvider (http://localhost:5173/src/context/CartContext.jsx:32:32)
+    at LanguageProvider (http://localhost:5173/src/context/LanguageContext.jsx:30:36)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4523:15)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:5261:5)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14029
+[   75533ms] ReferenceError: CartIcon is not defined
+    at Header (http://localhost:5173/src/components/Header.jsx?t=1790015399912:320:48)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14580:28)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15922:22)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19751:22)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+    at renderRootSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19114:15)
+    at recoverFromConcurrentError (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:18734:28)
+    at performSyncWorkOnRoot (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:18877:28)
+[   79520ms] ReferenceError: CartIcon is not defined
+    at Header (http://localhost:5173/src/components/Header.jsx?t=1790015403930:320:48)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14924:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15912:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3672:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3697:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3731:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19763:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+[   79523ms] ReferenceError: CartIcon is not defined
+    at Header (http://localhost:5173/src/components/Header.jsx?t=1790015403930:320:48)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14924:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15912:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3672:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3697:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3731:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19763:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+[   79524ms] [ERROR] The above error occurred in the <Header> component:
+
+    at Header (http://localhost:5173/src/components/Header.jsx?t=1790015403930:27:26)
+    at div
+    at App (http://localhost:5173/src/App.jsx:29:24)
+    at CartProvider (http://localhost:5173/src/context/CartContext.jsx:32:32)
+    at LanguageProvider (http://localhost:5173/src/context/LanguageContext.jsx:30:36)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4523:15)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:5261:5)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14029
+[   79524ms] ReferenceError: CartIcon is not defined
+    at Header (http://localhost:5173/src/components/Header.jsx?t=1790015403930:320:48)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14924:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15912:22)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19751:22)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+    at renderRootSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19114:15)
+    at recoverFromConcurrentError (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:18734:28)
+    at performSyncWorkOnRoot (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:18877:28)
+[   82485ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5173/@vite/client:559
+[   82487ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[   83491ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[   84493ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[   85495ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[   87232ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:21548
+[   87243ms] ReferenceError: CartIcon is not defined
+    at Header (http://localhost:5173/src/components/Header.jsx:320:48)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14924:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15912:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3672:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3697:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3731:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19763:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+[   87246ms] ReferenceError: CartIcon is not defined
+    at Header (http://localhost:5173/src/components/Header.jsx:320:48)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14924:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15912:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3672:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3697:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3731:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19763:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+[   87247ms] [ERROR] The above error occurred in the <Header> component:
+
+    at Header (http://localhost:5173/src/components/Header.jsx:27:26)
+    at div
+    at App (http://localhost:5173/src/App.jsx:29:24)
+    at CartProvider (http://localhost:5173/src/context/CartContext.jsx:32:32)
+    at LanguageProvider (http://localhost:5173/src/context/LanguageContext.jsx:30:36)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4523:15)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:5261:5)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14029
+[   87248ms] ReferenceError: CartIcon is not defined
+    at Header (http://localhost:5173/src/components/Header.jsx:320:48)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14924:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15912:22)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19751:22)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+    at renderRootSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19114:15)
+    at recoverFromConcurrentError (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:18734:28)
+    at performConcurrentWorkOnRoot (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:18682:30)
+[   89210ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[   89211ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414

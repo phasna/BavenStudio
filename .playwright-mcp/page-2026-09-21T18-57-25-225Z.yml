@@ -1,0 +1,59 @@
+- generic [ref=f10e3]:
+  - banner [ref=f10e4]:
+    - generic [ref=f10e5]:
+      - link "Baven Studio — Accueil" [ref=f10e6] [cursor=pointer]:
+        - /url: /
+        - img "Baven Studio" [ref=f10e7]
+      - generic [ref=f10e8]:
+        - button "Switch language" [ref=f10e9] [cursor=pointer]: EN
+        - link "Panier (1)" [ref=f10e10] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=f10e11]: "1"
+        - button "Ouvrir le menu" [ref=f10e17] [cursor=pointer]
+    - navigation [aria-hidden] [ref=f10e19]:
+      - generic [ref=f10e20]:
+        - generic [ref=f10e21]:
+          - link [ref=f10e22] [cursor=pointer]:
+            - /url: /
+          - button [ref=f10e24] [cursor=pointer]
+        - list [ref=f10e28]:
+          - listitem [ref=f10e29]:
+            - link [ref=f10e30] [cursor=pointer]:
+              - /url: /
+              - text: Accueil
+          - listitem [ref=f10e31]:
+            - link [ref=f10e32] [cursor=pointer]:
+              - /url: /shop
+              - text: Shop
+        - generic [ref=f10e33]:
+          - button [ref=f10e34] [cursor=pointer]: EN
+          - link [ref=f10e35] [cursor=pointer]:
+            - /url: /cart
+            - text: Panier (1)
+  - main [ref=f10e40]:
+    - generic [ref=f10e41]:
+      - heading "Panier" [level=1] [ref=f10e42]
+      - generic [ref=f10e44]:
+        - link [ref=f10e45] [cursor=pointer]:
+          - /url: /produits/oversize-tee-become
+        - generic [ref=f10e47]:
+          - link "Oversize Tee — Become" [ref=f10e48] [cursor=pointer]:
+            - /url: /produits/oversize-tee-become
+          - generic [ref=f10e49]: XS · Baven Ink
+        - generic [ref=f10e50]:
+          - spinbutton [ref=f10e51]: "1"
+          - generic [ref=f10e52]: 45 €
+          - button "Retirer" [ref=f10e53] [cursor=pointer]
+      - generic [ref=f10e54]:
+        - generic [ref=f10e55]: "Total : 45 €"
+        - link "Commander" [ref=f10e56] [cursor=pointer]:
+          - /url: /checkout
+  - contentinfo [ref=f10e57]:
+    - generic [ref=f10e58]:
+      - navigation [ref=f10e59]:
+        - generic [ref=f10e60]: Info
+        - generic [ref=f10e61]: Stockists
+        - generic [ref=f10e62]: Social
+        - generic [ref=f10e63]: Support
+        - generic [ref=f10e64]: Legal
+      - generic [ref=f10e65]: © 2021 – 2026 Baven Studio. All rights reserved

@@ -1,0 +1,60 @@
+- generic [ref=f43e3]:
+  - banner [ref=f43e4]:
+    - generic [ref=f43e5]:
+      - link "Baven Studio — Accueil" [ref=f43e6] [cursor=pointer]:
+        - /url: /
+        - img "Baven Studio" [ref=f43e7]
+      - generic [ref=f43e8]:
+        - button "Switch language" [ref=f43e9] [cursor=pointer]: EN
+        - link "Panier (3)" [ref=f43e12] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=f43e13]: "3"
+        - button "Ouvrir le menu" [ref=f43e19] [cursor=pointer]
+    - navigation [aria-hidden] [ref=f43e21]:
+      - generic [ref=f43e22]:
+        - generic [ref=f43e23]:
+          - link [ref=f43e24] [cursor=pointer]:
+            - /url: /
+          - button [ref=f43e26] [cursor=pointer]
+        - list [ref=f43e30]:
+          - listitem [ref=f43e31]:
+            - link [ref=f43e32] [cursor=pointer]:
+              - /url: /shop?gender=homme
+              - text: Homme
+          - listitem [ref=f43e33]:
+            - link [ref=f43e34] [cursor=pointer]:
+              - /url: /shop?gender=femme
+              - text: Femme
+          - listitem [ref=f43e35]:
+            - link [ref=f43e36] [cursor=pointer]:
+              - /url: /shop
+              - text: Collection
+        - generic [ref=f43e37]:
+          - button [ref=f43e38] [cursor=pointer]: EN
+          - link [ref=f43e41] [cursor=pointer]:
+            - /url: /cart
+            - text: Panier (3)
+  - main [ref=f43e46]:
+    - generic [ref=f43e47]:
+      - heading "Shop" [level=1] [ref=f43e48]
+      - generic [ref=f43e49]:
+        - button "Tout" [ref=f43e50] [cursor=pointer]
+        - button "Femme" [ref=f43e51] [cursor=pointer]
+        - button "Homme" [ref=f43e52] [cursor=pointer]
+      - paragraph [ref=f43e53]: Aucun produit ne correspond à cette sélection pour le moment.
+  - contentinfo [ref=f43e54]:
+    - generic [ref=f43e55]:
+      - navigation [ref=f43e56]:
+        - generic [ref=f43e57]: Info
+        - generic [ref=f43e58]: Stockists
+        - generic [ref=f43e59]: Social
+        - generic [ref=f43e60]: Support
+        - generic [ref=f43e61]: Legal
+      - generic [ref=f43e62]: © 2021 – 2026 Baven Studio. All rights reserved
+  - generic [ref=f43e64]:
+    - button "Continuer sans accepter" [ref=f43e65] [cursor=pointer]
+    - heading "Cookies" [level=2] [ref=f43e66]
+    - paragraph [ref=f43e67]: Pour vous offrir une meilleure expérience, ce site utilise des cookies internes et tiers. En sélectionnant « Tout accepter », vous consentez à leur utilisation. Pour en savoir plus ou choisir vos préférences, cliquez sur « Gérer les préférences » ou consultez notre politique de confidentialité et notre politique de cookies.
+    - generic [ref=f43e68]:
+      - button "Tout accepter" [ref=f43e69] [cursor=pointer]
+      - button "Gérer les préférences" [ref=f43e70] [cursor=pointer]

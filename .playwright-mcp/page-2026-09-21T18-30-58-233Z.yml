@@ -1,0 +1,102 @@
+- generic [ref=f7e3]:
+  - banner [ref=f7e4]:
+    - generic [ref=f7e5]:
+      - link "Baven Studio — Accueil" [ref=f7e6] [cursor=pointer]:
+        - /url: /
+        - img "Baven Studio" [ref=f7e7]
+      - generic [ref=f7e8]:
+        - button "Switch language" [ref=f7e9] [cursor=pointer]: EN
+        - link "Panier (0)" [ref=f7e10] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=f7e16]: "0"
+        - button "Fermer le menu" [active] [ref=f7e114] [cursor=pointer]
+    - navigation [ref=f7e19]:
+      - generic [ref=f7e20]:
+        - generic [ref=f7e21]:
+          - link "Baven Studio — Accueil" [ref=f7e118] [cursor=pointer]:
+            - /url: /
+            - img "Baven Studio" [ref=f7e119]
+          - button "Fermer le menu" [ref=f7e120] [cursor=pointer]
+        - searchbox "Rechercher..." [ref=f7e121]
+        - list [ref=f7e34]:
+          - listitem [ref=f7e35]:
+            - link "Accueil" [ref=f7e122] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f7e37]:
+            - link "Shop" [ref=f7e123] [cursor=pointer]:
+              - /url: /shop
+        - generic [ref=f7e39]:
+          - button "Switch language" [ref=f7e124] [cursor=pointer]: EN
+          - link "Panier (0)" [ref=f7e125] [cursor=pointer]:
+            - /url: /cart
+  - main [ref=f7e42]:
+    - generic [ref=f7e43]:
+      - heading "Shop" [level=1] [ref=f7e44]
+      - generic [ref=f7e45]:
+        - button "Tout" [ref=f7e46] [cursor=pointer]
+        - button "Femme" [ref=f7e47] [cursor=pointer]
+        - button "Homme" [ref=f7e48] [cursor=pointer]
+      - generic [ref=f7e59]:
+        - link "Oversize Tee — Become 45 € T-Shirts" [ref=f7e60] [cursor=pointer]:
+          - /url: /produits/oversize-tee-become
+          - generic [ref=f7e62]:
+            - generic [ref=f7e63]: Oversize Tee — Become
+            - generic [ref=f7e64]: 45 €
+          - generic [ref=f7e65]: T-Shirts
+        - link "Essential Tee — B 39 € T-Shirts" [ref=f7e66] [cursor=pointer]:
+          - /url: /produits/essential-tee-b
+          - generic [ref=f7e68]:
+            - generic [ref=f7e69]: Essential Tee — B
+            - generic [ref=f7e70]: 39 €
+          - generic [ref=f7e71]: T-Shirts
+        - link "Signature Hoodie 89 € Hoodies" [ref=f7e72] [cursor=pointer]:
+          - /url: /produits/signature-hoodie
+          - generic [ref=f7e74]:
+            - generic [ref=f7e75]: Signature Hoodie
+            - generic [ref=f7e76]: 89 €
+          - generic [ref=f7e77]: Hoodies
+        - link "Evolve Hoodie 95 € Hoodies" [ref=f7e78] [cursor=pointer]:
+          - /url: /produits/evolve-hoodie
+          - generic [ref=f7e80]:
+            - generic [ref=f7e81]: Evolve Hoodie
+            - generic [ref=f7e82]: 95 €
+          - generic [ref=f7e83]: Hoodies
+        - link "Crewneck Sweatshirt 79 € Sweatshirts" [ref=f7e84] [cursor=pointer]:
+          - /url: /produits/crewneck-sweatshirt
+          - generic [ref=f7e86]:
+            - generic [ref=f7e87]: Crewneck Sweatshirt
+            - generic [ref=f7e88]: 79 €
+          - generic [ref=f7e89]: Sweatshirts
+        - link "New Drop Cap 35 € Casquettes" [ref=f7e90] [cursor=pointer]:
+          - /url: /produits/new-drop-cap
+          - generic [ref=f7e92]:
+            - generic [ref=f7e93]: New Drop Cap
+            - generic [ref=f7e94]: 35 €
+          - generic [ref=f7e95]: Casquettes
+        - link "Wide Cargo Pants 99 € Pantalons" [ref=f7e96] [cursor=pointer]:
+          - /url: /produits/wide-cargo-pants
+          - generic [ref=f7e98]:
+            - generic [ref=f7e99]: Wide Cargo Pants
+            - generic [ref=f7e100]: 99 €
+          - generic [ref=f7e101]: Pantalons
+        - link "Studio Track Jacket 129 € Vestes" [ref=f7e102] [cursor=pointer]:
+          - /url: /produits/studio-track-jacket
+          - generic [ref=f7e104]:
+            - generic [ref=f7e105]: Studio Track Jacket
+            - generic [ref=f7e106]: 129 €
+          - generic [ref=f7e107]: Vestes
+        - link "Tote Bag — Move Forward 25 € Accessoires" [ref=f7e108] [cursor=pointer]:
+          - /url: /produits/tote-bag-move-forward
+          - generic [ref=f7e110]:
+            - generic [ref=f7e111]: Tote Bag — Move Forward
+            - generic [ref=f7e112]: 25 €
+          - generic [ref=f7e113]: Accessoires
+  - contentinfo [ref=f7e50]:
+    - generic [ref=f7e51]:
+      - navigation [ref=f7e52]:
+        - generic [ref=f7e53]: Info
+        - generic [ref=f7e54]: Stockists
+        - generic [ref=f7e55]: Social
+        - generic [ref=f7e56]: Support
+        - generic [ref=f7e57]: Legal
+      - generic [ref=f7e58]: © 2021 – 2026 Baven Studio. All rights reserved

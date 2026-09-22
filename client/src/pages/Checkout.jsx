@@ -33,16 +33,19 @@ function formatExpiry(value) {
   return `${digits.slice(0, 2)}/${digits.slice(2)}`;
 }
 
-function validate(form, t) {
+function validateShipping(form, t) {
   const errors = {};
-
   if (!form.fullName.trim()) errors.fullName = t("checkout.errors.fullName");
   if (!/^\S+@\S+\.\S+$/.test(form.email)) errors.email = t("checkout.errors.email");
   if (!form.phone.trim()) errors.phone = t("checkout.errors.phone");
   if (!form.address.trim()) errors.address = t("checkout.errors.address");
   if (!form.city.trim()) errors.city = t("checkout.errors.city");
   if (!/^\d{4,6}$/.test(form.postalCode.trim())) errors.postalCode = t("checkout.errors.postalCode");
+  return errors;
+}
 
+function validatePayment(form, t) {
+  const errors = {};
   if (!form.cardName.trim()) errors.cardName = t("checkout.errors.cardName");
   const digits = form.cardNumber.replace(/\s/g, "");
   if (!/^\d{13,19}$/.test(digits)) errors.cardNumber = t("checkout.errors.cardNumber");
@@ -59,13 +62,13 @@ function validate(form, t) {
     }
   }
   if (!/^\d{3,4}$/.test(form.cardCvc)) errors.cardCvc = t("checkout.errors.cardCvc");
-
   return errors;
 }
 
 export default function Checkout() {
   const { items, totalPrice, clearCart } = useCart();
   const { t } = useLanguage();
+  const [step, setStep] = useState(1);
   const [form, setForm] = useState(INITIAL_FORM);
   const [errors, setErrors] = useState({});
   const [isProcessing, setIsProcessing] = useState(false);
@@ -79,9 +82,17 @@ export default function Checkout() {
     };
   }
 
+  function goToPayment(e) {
+    e.preventDefault();
+    const nextErrors = validateShipping(form, t);
+    setErrors(nextErrors);
+    if (Object.keys(nextErrors).length > 0) return;
+    setStep(2);
+  }
+
   function handleSubmit(e) {
     e.preventDefault();
-    const nextErrors = validate(form, t);
+    const nextErrors = validatePayment(form, t);
     setErrors(nextErrors);
     if (Object.keys(nextErrors).length > 0) return;
 
@@ -118,12 +129,17 @@ export default function Checkout() {
 
   return (
     <div className="container section">
-      <h1 style={{ fontSize: "clamp(28px, 4vw, 44px)", marginBottom: 40 }}>
+      <h1 style={{ fontSize: "clamp(28px, 4vw, 44px)", marginBottom: 24 }}>
         {t("checkout.title")}
       </h1>
 
-      <form
-        onSubmit={handleSubmit}
+      <div style={{ display: "flex", gap: 12, marginBottom: 40 }}>
+        <StepLabel number={1} label={t("checkout.shippingSection")} active={step === 1} done={step > 1} />
+        <span style={{ color: "var(--color-light-grey)" }}>—</span>
+        <StepLabel number={2} label={t("checkout.paymentSection")} active={step === 2} done={false} />
+      </div>
+
+      <div
         style={{
           display: "grid",
           gridTemplateColumns: "1.4fr 1fr",
@@ -133,98 +149,120 @@ export default function Checkout() {
         className="checkout-grid"
       >
         <div style={{ display: "flex", flexDirection: "column", gap: 40 }}>
-          <section>
-            <h2 style={{ fontSize: 20, marginBottom: 20 }}>{t("checkout.shippingSection")}</h2>
-            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
-              <Field
-                label={t("checkout.fullName")}
-                value={form.fullName}
-                onChange={updateField("fullName")}
-                error={errors.fullName}
-                full
-              />
-              <Field
-                label={t("checkout.email")}
-                type="email"
-                value={form.email}
-                onChange={updateField("email")}
-                error={errors.email}
-              />
-              <Field
-                label={t("checkout.phone")}
-                type="tel"
-                value={form.phone}
-                onChange={updateField("phone")}
-                error={errors.phone}
-              />
-              <Field
-                label={t("checkout.address")}
-                value={form.address}
-                onChange={updateField("address")}
-                error={errors.address}
-                full
-              />
-              <Field
-                label={t("checkout.city")}
-                value={form.city}
-                onChange={updateField("city")}
-                error={errors.city}
-              />
-              <Field
-                label={t("checkout.postalCode")}
-                value={form.postalCode}
-                onChange={updateField("postalCode")}
-                error={errors.postalCode}
-              />
-              <Field
-                label={t("checkout.country")}
-                value={form.country}
-                onChange={updateField("country")}
-                full
-              />
-            </div>
-          </section>
+          {step === 1 && (
+            <form onSubmit={goToPayment}>
+              <section>
+                <h2 style={{ fontSize: 20, marginBottom: 20 }}>{t("checkout.shippingSection")}</h2>
+                <div className="checkout-fields-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
+                  <Field
+                    label={t("checkout.fullName")}
+                    value={form.fullName}
+                    onChange={updateField("fullName")}
+                    error={errors.fullName}
+                    full
+                  />
+                  <Field
+                    label={t("checkout.email")}
+                    type="email"
+                    value={form.email}
+                    onChange={updateField("email")}
+                    error={errors.email}
+                  />
+                  <Field
+                    label={t("checkout.phone")}
+                    type="tel"
+                    value={form.phone}
+                    onChange={updateField("phone")}
+                    error={errors.phone}
+                  />
+                  <Field
+                    label={t("checkout.address")}
+                    value={form.address}
+                    onChange={updateField("address")}
+                    error={errors.address}
+                    full
+                  />
+                  <Field
+                    label={t("checkout.city")}
+                    value={form.city}
+                    onChange={updateField("city")}
+                    error={errors.city}
+                  />
+                  <Field
+                    label={t("checkout.postalCode")}
+                    value={form.postalCode}
+                    onChange={updateField("postalCode")}
+                    error={errors.postalCode}
+                  />
+                  <Field
+                    label={t("checkout.country")}
+                    value={form.country}
+                    onChange={updateField("country")}
+                    full
+                  />
+                </div>
+              </section>
 
-          <section>
-            <h2 style={{ fontSize: 20, marginBottom: 20 }}>{t("checkout.paymentSection")}</h2>
-            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
-              <Field
-                label={t("checkout.cardName")}
-                value={form.cardName}
-                onChange={updateField("cardName")}
-                error={errors.cardName}
-                full
-              />
-              <Field
-                label={t("checkout.cardNumber")}
-                value={form.cardNumber}
-                onChange={updateField("cardNumber", formatCardNumber)}
-                error={errors.cardNumber}
-                placeholder="0000 0000 0000 0000"
-                full
-              />
-              <Field
-                label={t("checkout.expiry")}
-                value={form.cardExpiry}
-                onChange={updateField("cardExpiry", formatExpiry)}
-                error={errors.cardExpiry}
-                placeholder={t("checkout.expiryPlaceholder")}
-              />
-              <Field
-                label={t("checkout.cvc")}
-                value={form.cardCvc}
-                onChange={updateField("cardCvc", (v) => v.replace(/\D/g, "").slice(0, 4))}
-                error={errors.cardCvc}
-                placeholder="123"
-              />
-            </div>
-            <p className="eyebrow" style={{ marginTop: 12, color: "var(--color-neutral-grey)" }}>
-              {t("checkout.simulationNote")}
-            </p>
-          </section>
+              <button type="submit" className="btn btn-primary" style={{ marginTop: 32 }}>
+                {t("checkout.continueToPayment")}
+              </button>
+            </form>
+          )}
+
+          {step === 2 && (
+            <form onSubmit={handleSubmit}>
+              <section>
+                <h2 style={{ fontSize: 20, marginBottom: 20 }}>{t("checkout.paymentSection")}</h2>
+                <div className="checkout-fields-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
+                  <Field
+                    label={t("checkout.cardName")}
+                    value={form.cardName}
+                    onChange={updateField("cardName")}
+                    error={errors.cardName}
+                    full
+                  />
+                  <Field
+                    label={t("checkout.cardNumber")}
+                    value={form.cardNumber}
+                    onChange={updateField("cardNumber", formatCardNumber)}
+                    error={errors.cardNumber}
+                    placeholder="0000 0000 0000 0000"
+                    full
+                  />
+                  <Field
+                    label={t("checkout.expiry")}
+                    value={form.cardExpiry}
+                    onChange={updateField("cardExpiry", formatExpiry)}
+                    error={errors.cardExpiry}
+                    placeholder={t("checkout.expiryPlaceholder")}
+                  />
+                  <Field
+                    label={t("checkout.cvc")}
+                    value={form.cardCvc}
+                    onChange={updateField("cardCvc", (v) => v.replace(/\D/g, "").slice(0, 4))}
+                    error={errors.cardCvc}
+                    placeholder="123"
+                  />
+                </div>
+                <p className="eyebrow" style={{ marginTop: 12, color: "var(--color-neutral-grey)" }}>
+                  {t("checkout.simulationNote")}
+                </p>
+              </section>
+
+              <div style={{ display: "flex", gap: 16, marginTop: 32 }}>
+                <button type="button" onClick={() => setStep(1)} className="btn btn-outline">
+                  {t("checkout.backToShipping")}
+                </button>
+                <button type="submit" className="btn btn-primary" disabled={isProcessing}>
+                  {isProcessing ? t("checkout.processing") : t("checkout.pay", (totalPrice + SHIPPING_COST).toFixed(0))}
+                </button>
+              </div>
+            </form>
+          )}
         </div>
 
         <aside
+          className="checkout-summary"
           style={{
             border: "1px solid var(--color-light-grey)",
             padding: 24,
@@ -279,16 +317,11 @@ export default function Checkout() {
             </div>
           </div>
 
-          <button type="submit" className="btn btn-primary" style={{ width: "100%" }} disabled={isProcessing}>
-            {isProcessing ? t("checkout.processing") : t("checkout.pay", (totalPrice + SHIPPING_COST).toFixed(0))}
-          </button>
-
           <Link
             to="/cart"
             style={{
               display: "block",
               textAlign: "center",
-              marginTop: 12,
               fontSize: 13,
               color: "var(--color-neutral-grey)",
               textDecoration: "underline",
@@ -297,14 +330,48 @@ export default function Checkout() {
             {t("checkout.backToCart")}
           </Link>
         </aside>
-      </form>
+      </div>
 
       <style>{`
         @media (max-width: 860px) {
-          .checkout-grid { grid-template-columns: 1fr !important; }
+          .checkout-grid { grid-template-columns: 1fr !important; gap: 48px !important; }
+          .checkout-summary { position: static !important; top: auto !important; }
+        }
+        @media (max-width: 640px) {
+          .checkout-fields-grid { grid-template-columns: 1fr !important; }
         }
       `}</style>
     </div>
+  );
+}
+
+function StepLabel({ number, label, active, done }) {
+  return (
+    <span
+      className="eyebrow"
+      style={{
+        display: "flex",
+        alignItems: "center",
+        gap: 8,
+        color: active ? "var(--color-ink)" : done ? "var(--color-neutral-grey)" : "var(--color-light-grey)",
+      }}
+    >
+      <span
+        style={{
+          display: "inline-flex",
+          alignItems: "center",
+          justifyContent: "center",
+          width: 20,
+          height: 20,
+          borderRadius: "50%",
+          border: `1px solid ${active ? "var(--color-ink)" : "var(--color-light-grey)"}`,
+          fontSize: 11,
+        }}
+      >
+        {number}
+      </span>
+      {label}
+    </span>
   );
 }
 

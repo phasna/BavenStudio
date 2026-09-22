@@ -1,6 +1,6 @@
 :root {
   --color-ink: #111820;
-  --color-off-white: #f4f1ea;
+  --color-off-white: #ffffff;
   --color-light-grey: #e6e3dc;
   --color-neutral-grey: #777b80;
   --color-error: #b3261e;
@@ -68,9 +68,10 @@ ul {
 }
 
 .container {
+  --container-px: clamp(20px, 5vw, 64px);
   max-width: var(--container-max);
   margin: 0 auto;
-  padding: 0 24px;
+  padding: 0 var(--container-px);
 }
 
 .eyebrow {
@@ -122,12 +123,14 @@ ul {
 }
 
 .section {
-  padding: 80px 0;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 @media (max-width: 640px) {
   .section {
-    padding: 48px 0;
+    padding-top: 48px;
+    padding-bottom: 48px;
   }
 }
 
@@ -145,6 +148,7 @@ ul {
 
 @media (max-width: 560px) {
   .product-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
   }
 }

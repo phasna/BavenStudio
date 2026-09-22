@@ -1,0 +1,49 @@
+- generic [ref=f30e3]:
+  - banner [ref=f30e4]:
+    - generic [ref=f30e5]:
+      - link "Baven Studio — Accueil" [ref=f30e6] [cursor=pointer]:
+        - /url: /
+        - img "Baven Studio" [ref=f30e7]
+      - navigation [ref=f30e8]:
+        - list [ref=f30e9]:
+          - listitem [ref=f30e10]:
+            - link "Homme" [ref=f30e11] [cursor=pointer]:
+              - /url: /shop?gender=homme
+          - listitem [ref=f30e12]:
+            - link "Femme" [ref=f30e13] [cursor=pointer]:
+              - /url: /shop?gender=femme
+          - listitem [ref=f30e14]:
+            - link "Collection" [ref=f30e15] [cursor=pointer]:
+              - /url: /shop
+      - generic [ref=f30e16]:
+        - generic [ref=f30e17]:
+          - searchbox "Rechercher..." [ref=f30e18]
+          - button "Ouvrir la recherche" [ref=f30e19] [cursor=pointer]
+        - button "Switch language" [ref=f30e23] [cursor=pointer]: EN
+        - link "Panier (3)" [ref=f30e26] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=f30e27]: Panier
+          - generic [ref=f30e28]: "3"
+  - main [ref=f30e29]:
+    - generic [ref=f30e30]:
+      - heading "Shop" [level=1] [ref=f30e31]
+      - generic [ref=f30e32]:
+        - button "Tout" [ref=f30e33] [cursor=pointer]
+        - button "Femme" [ref=f30e34] [cursor=pointer]
+        - button "Homme" [ref=f30e35] [cursor=pointer]
+      - paragraph [ref=f30e36]: Aucun produit ne correspond à cette sélection pour le moment.
+  - contentinfo [ref=f30e37]:
+    - generic [ref=f30e38]:
+      - navigation [ref=f30e39]:
+        - generic [ref=f30e40]: Info
+        - generic [ref=f30e41]: Stockists
+        - generic [ref=f30e42]: Social
+        - generic [ref=f30e43]: Support
+        - generic [ref=f30e44]: Legal
+      - generic [ref=f30e45]: © 2021 – 2026 Baven Studio. All rights reserved
+  - generic [ref=f30e48]:
+    - paragraph [ref=f30e49]: Nous utilisons des cookies pour améliorer votre expérience, mesurer l'audience du site et personnaliser le contenu. Vous pouvez tout accepter ou choisir précisément quels cookies autoriser.
+    - generic [ref=f30e50]:
+      - button "Personnaliser" [ref=f30e51] [cursor=pointer]
+      - button "Tout refuser" [ref=f30e52] [cursor=pointer]
+      - button "Tout accepter" [ref=f30e53] [cursor=pointer]
