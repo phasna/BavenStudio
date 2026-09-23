@@ -1,0 +1,117 @@
+- main [ref=f84e4]:
+  - generic [ref=f84e5]:
+    - complementary [ref=f84e6]:
+      - link [ref=f84e7] [cursor=pointer]:
+        - /url: /
+        - img "Baven Studio" [ref=f84e8]
+      - generic [ref=f84e9]:
+        - generic [ref=f84e10]: Administration
+        - generic [ref=f84e11]: Gérez le catalogue, les commandes et les promotions de Baven Studio.
+      - navigation [ref=f84e12]:
+        - link "Accueil" [ref=f84e13] [cursor=pointer]:
+          - /url: /admin
+        - link "Produits" [active] [ref=f84e14] [cursor=pointer]:
+          - /url: /admin/products
+        - link "Commandes" [ref=f84e15] [cursor=pointer]:
+          - /url: /admin/orders
+        - link "Promotions" [ref=f84e16] [cursor=pointer]:
+          - /url: /admin/promotions
+        - link "Profil" [ref=f84e17] [cursor=pointer]:
+          - /url: /admin/profile
+      - link "Retour à mon compte" [ref=f84e19] [cursor=pointer]:
+        - /url: /account
+    - main [ref=f84e20]:
+      - paragraph [ref=f84e21]: Simulation — les modifications ci-dessous ne sont pas sauvegardées sur le serveur (V1).
+      - generic [ref=f84e45]:
+        - button "Ajouter un produit" [ref=f84e46] [cursor=pointer]
+        - table [ref=f84e48]:
+          - rowgroup [ref=f84e49]:
+            - row [ref=f84e50]:
+              - columnheader "Nom" [ref=f84e51]
+              - columnheader "Catégorie" [ref=f84e52]
+              - columnheader "Prix" [ref=f84e53]
+              - columnheader "Genre" [ref=f84e54]
+              - columnheader "Vedette" [ref=f84e55]
+              - columnheader "Actions" [ref=f84e56]
+          - rowgroup [ref=f84e57]:
+            - row [ref=f84e58]:
+              - cell "Oversize Tee — Become" [ref=f84e59]
+              - cell "T-Shirts" [ref=f84e60]
+              - cell "45 €" [ref=f84e61]
+              - cell "unisexe" [ref=f84e62]
+              - cell "✓" [ref=f84e63]
+              - cell [ref=f84e64]:
+                - button "Modifier" [ref=f84e65] [cursor=pointer]
+                - button "Supprimer" [ref=f84e66] [cursor=pointer]
+            - row [ref=f84e67]:
+              - cell "Essential Tee — B" [ref=f84e68]
+              - cell "T-Shirts" [ref=f84e69]
+              - cell "39 €" [ref=f84e70]
+              - cell "femme" [ref=f84e71]
+              - cell [ref=f84e72]
+              - cell [ref=f84e73]:
+                - button "Modifier" [ref=f84e74] [cursor=pointer]
+                - button "Supprimer" [ref=f84e75] [cursor=pointer]
+            - row [ref=f84e76]:
+              - cell "Signature Hoodie" [ref=f84e77]
+              - cell "Hoodies" [ref=f84e78]
+              - cell "89 €" [ref=f84e79]
+              - cell "homme" [ref=f84e80]
+              - cell "✓" [ref=f84e81]
+              - cell [ref=f84e82]:
+                - button "Modifier" [ref=f84e83] [cursor=pointer]
+                - button "Supprimer" [ref=f84e84] [cursor=pointer]
+            - row [ref=f84e85]:
+              - cell "Evolve Hoodie" [ref=f84e86]
+              - cell "Hoodies" [ref=f84e87]
+              - cell "95 €" [ref=f84e88]
+              - cell "femme" [ref=f84e89]
+              - cell [ref=f84e90]
+              - cell [ref=f84e91]:
+                - button "Modifier" [ref=f84e92] [cursor=pointer]
+                - button "Supprimer" [ref=f84e93] [cursor=pointer]
+            - row [ref=f84e94]:
+              - cell "Crewneck Sweatshirt" [ref=f84e95]
+              - cell "Sweatshirts" [ref=f84e96]
+              - cell "79 €" [ref=f84e97]
+              - cell "unisexe" [ref=f84e98]
+              - cell "✓" [ref=f84e99]
+              - cell [ref=f84e100]:
+                - button "Modifier" [ref=f84e101] [cursor=pointer]
+                - button "Supprimer" [ref=f84e102] [cursor=pointer]
+            - row [ref=f84e103]:
+              - cell "New Drop Cap" [ref=f84e104]
+              - cell "Casquettes" [ref=f84e105]
+              - cell "35 €" [ref=f84e106]
+              - cell "unisexe" [ref=f84e107]
+              - cell "✓" [ref=f84e108]
+              - cell [ref=f84e109]:
+                - button "Modifier" [ref=f84e110] [cursor=pointer]
+                - button "Supprimer" [ref=f84e111] [cursor=pointer]
+            - row [ref=f84e112]:
+              - cell "Wide Cargo Pants" [ref=f84e113]
+              - cell "Pantalons" [ref=f84e114]
+              - cell "99 €" [ref=f84e115]
+              - cell "homme" [ref=f84e116]
+              - cell [ref=f84e117]
+              - cell [ref=f84e118]:
+                - button "Modifier" [ref=f84e119] [cursor=pointer]
+                - button "Supprimer" [ref=f84e120] [cursor=pointer]
+            - row [ref=f84e121]:
+              - cell "Studio Track Jacket" [ref=f84e122]
+              - cell "Vestes" [ref=f84e123]
+              - cell "129 €" [ref=f84e124]
+              - cell "femme" [ref=f84e125]
+              - cell "✓" [ref=f84e126]
+              - cell [ref=f84e127]:
+                - button "Modifier" [ref=f84e128] [cursor=pointer]
+                - button "Supprimer" [ref=f84e129] [cursor=pointer]
+            - row [ref=f84e130]:
+              - cell "Tote Bag — Move Forward" [ref=f84e131]
+              - cell "Accessoires" [ref=f84e132]
+              - cell "25 €" [ref=f84e133]
+              - cell "unisexe" [ref=f84e134]
+              - cell [ref=f84e135]
+              - cell [ref=f84e136]:
+                - button "Modifier" [ref=f84e137] [cursor=pointer]
+                - button "Supprimer" [ref=f84e138] [cursor=pointer]

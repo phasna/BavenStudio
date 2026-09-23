@@ -1,0 +1,89 @@
+- generic [ref=f83e3]:
+  - banner [ref=f83e4]:
+    - generic [ref=f83e5]:
+      - link "Baven Studio — Accueil" [ref=f83e6] [cursor=pointer]:
+        - /url: /
+        - img "Baven Studio" [ref=f83e7]
+      - navigation [ref=f83e8]:
+        - list [ref=f83e9]:
+          - listitem [ref=f83e10]:
+            - link "Homme" [ref=f83e11] [cursor=pointer]:
+              - /url: /shop?gender=homme
+          - listitem [ref=f83e12]:
+            - link "Femme" [ref=f83e13] [cursor=pointer]:
+              - /url: /shop?gender=femme
+          - listitem [ref=f83e14]:
+            - link "Collection" [ref=f83e15] [cursor=pointer]:
+              - /url: /shop
+      - generic [ref=f83e16]:
+        - generic [ref=f83e17]:
+          - searchbox "Rechercher..." [ref=f83e18]
+          - button "Ouvrir la recherche" [ref=f83e19] [cursor=pointer]
+        - button "Switch language" [ref=f83e24] [cursor=pointer]: FR
+        - link "Connexion" [ref=f83e28] [cursor=pointer]:
+          - /url: /login
+        - link "Panier (0)" [ref=f83e32] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=f83e33]: Panier
+          - generic [ref=f83e34]: "0"
+  - main [ref=f83e35]:
+    - generic [ref=f83e36]:
+      - complementary [ref=f83e37]:
+        - link [ref=f83e38] [cursor=pointer]:
+          - /url: /
+          - img "Baven Studio" [ref=f83e39]
+        - generic [ref=f83e40]:
+          - generic [ref=f83e41]: Administration
+          - generic [ref=f83e42]: Gérez le catalogue, les commandes et les promotions de Baven Studio.
+        - navigation [ref=f83e43]:
+          - link "Accueil" [ref=f83e44] [cursor=pointer]:
+            - /url: /admin
+          - link "Produits" [ref=f83e45] [cursor=pointer]:
+            - /url: /admin/products
+          - link "Commandes" [ref=f83e46] [cursor=pointer]:
+            - /url: /admin/orders
+          - link "Promotions" [ref=f83e47] [cursor=pointer]:
+            - /url: /admin/promotions
+          - link "Profil" [ref=f83e48] [cursor=pointer]:
+            - /url: /admin/profile
+        - link "Retour à mon compte" [ref=f83e50] [cursor=pointer]:
+          - /url: /account
+      - main [ref=f83e51]:
+        - paragraph [ref=f83e52]: Simulation — les modifications ci-dessous ne sont pas sauvegardées sur le serveur (V1).
+        - generic [ref=f83e53]:
+          - generic [ref=f83e54]:
+            - generic [ref=f83e55]:
+              - generic [ref=f83e56]: —
+              - generic [ref=f83e57]: Produits
+            - generic [ref=f83e58]:
+              - generic [ref=f83e59]: "0"
+              - generic [ref=f83e60]: Catégories
+            - generic [ref=f83e61]:
+              - generic [ref=f83e62]: "0"
+              - generic [ref=f83e63]: En vedette
+            - generic [ref=f83e64]:
+              - generic [ref=f83e65]: "0"
+              - generic [ref=f83e66]: Commandes
+            - generic [ref=f83e67]:
+              - generic [ref=f83e68]: 0 €
+              - generic [ref=f83e69]: Chiffre d'affaires
+            - generic [ref=f83e70]:
+              - generic [ref=f83e71]: "1"
+              - generic [ref=f83e72]: Promotions actives
+          - generic [ref=f83e73]:
+            - heading "Dernières commandes" [level=2] [ref=f83e74]
+            - paragraph [ref=f83e75]: Aucune commande pour le moment.
+  - contentinfo [ref=f83e76]:
+    - generic [ref=f83e77]:
+      - navigation [ref=f83e78]:
+        - link "Info" [ref=f83e79] [cursor=pointer]:
+          - /url: /info/info
+        - link "Stockists" [ref=f83e80] [cursor=pointer]:
+          - /url: /info/stockists
+        - link "Social" [ref=f83e81] [cursor=pointer]:
+          - /url: /info/social
+        - link "Support" [ref=f83e82] [cursor=pointer]:
+          - /url: /info/support
+        - link "Legal" [ref=f83e83] [cursor=pointer]:
+          - /url: /info/legal
+      - generic [ref=f83e84]: © 2021 – 2026 Baven Studio. All rights reserved

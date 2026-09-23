@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, Navigate } from "react-router-dom";
 import { useCart } from "../context/CartContext.jsx";
 import { useLanguage } from "../context/LanguageContext.jsx";
+import { addOrder } from "../lib/orders.js";
 
 const SHIPPING_COST = 6;
 
@@ -98,6 +99,24 @@ export default function Checkout() {
 
     setIsProcessing(true);
     setTimeout(() => {
+      addOrder({
+        id: `BAV-${Date.now().toString(36).toUpperCase()}`,
+        date: new Date().toISOString(),
+        email: form.email,
+        fullName: form.fullName,
+        items: items.map((item) => ({
+          name: item.name,
+          slug: item.slug,
+          size: item.size,
+          color: item.color,
+          quantity: item.quantity,
+          price: item.price,
+        })),
+        subtotal: totalPrice,
+        shipping: SHIPPING_COST,
+        total: totalPrice + SHIPPING_COST,
+        status: "paid",
+      });
       setIsProcessing(false);
       setOrderPlaced(true);
       clearCart();

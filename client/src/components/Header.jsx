@@ -3,12 +3,14 @@ import { Link, NavLink, useLocation, useNavigate, useSearchParams } from "react-
 import logo from "../assets/Logo/baven_logo.png";
 import { useCart } from "../context/CartContext.jsx";
 import { useLanguage } from "../context/LanguageContext.jsx";
+import { useAuth } from "../context/AuthContext.jsx";
 
 export const HEADER_HEIGHT = 76;
 
 export default function Header() {
   const { totalItems } = useCart();
   const { language, setLanguage, t } = useLanguage();
+  const { user } = useAuth();
   const { pathname } = useLocation();
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
@@ -184,8 +186,8 @@ export default function Header() {
           <LanguageDropdown language={language} setLanguage={setLanguage} color={textColor} />
 
           <Link
-            to="/login"
-            aria-label={t("nav.login")}
+            to={user ? "/account" : "/login"}
+            aria-label={user ? user.fullName : t("nav.login")}
             style={{ display: "flex", alignItems: "center", color: textColor }}
           >
             <UserIcon />
@@ -367,9 +369,9 @@ export default function Header() {
               <LanguageDropdown language={language} setLanguage={setLanguage} color="var(--color-ink)" />
 
               <Link
-                to="/login"
+                to={user ? "/account" : "/login"}
                 onClick={() => setIsMenuOpen(false)}
-                aria-label={t("nav.login")}
+                aria-label={user ? user.fullName : t("nav.login")}
                 tabIndex={isMenuOpen ? 0 : -1}
                 style={{ display: "flex", alignItems: "center", color: "var(--color-ink)" }}
               >

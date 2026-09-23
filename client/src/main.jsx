@@ -4,15 +4,21 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './App.jsx';
 import { CartProvider } from './context/CartContext.jsx';
 import { LanguageProvider } from './context/LanguageContext.jsx';
+import { AuthProvider } from './context/AuthContext.jsx';
+import { PromotionsProvider } from './context/PromotionsContext.jsx';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
       <LanguageProvider>
-        <CartProvider>
-          <App />
-        </CartProvider>
+        <AuthProvider>
+          <PromotionsProvider>
+            <CartProvider>
+              <App />
+            </CartProvider>
+          </PromotionsProvider>
+        </AuthProvider>
       </LanguageProvider>
     </BrowserRouter>
   </React.StrictMode>

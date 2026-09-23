@@ -1,0 +1,1060 @@
+[      53ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:21548
+[      91ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[      91ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[     170ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/register:0
+[     170ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/register:0
+[   14866ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:21548
+[   14898ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[   14899ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[   14986ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/register:0
+[   14986ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/register:0
+[   31903ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/register:0
+[   31903ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/register:0
+[   52034ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:21548
+[   52065ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[   52065ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[   52155ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/register:0
+[   52155ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/register:0
+[   70172ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:21548
+[   70200ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[   70200ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[   70290ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/register:0
+[   70290ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/register:0
+[  349534ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5173/@vite/client:559
+[  349536ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  350538ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  351540ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  352542ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  353544ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  354549ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  355551ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  356554ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  357557ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  358560ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  359562ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  360565ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  361569ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  362572ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  363575ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  364577ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  365580ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  366583ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  367586ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  369226ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:21548
+[  369255ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[  369255ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[  369345ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/register:0
+[  369345ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/register:0
+[  447237ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:21548
+[  447265ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[  447265ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[  447355ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/register:0
+[  447355ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/register:0
+[  549878ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5173/@vite/client:559
+[  549880ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  550883ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  551887ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  552889ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  553892ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  554894ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  555898ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  556900ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  557903ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  558907ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  559909ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  560912ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  561916ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  562919ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  563923ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  564927ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  565930ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  566934ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  567937ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  568940ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  569944ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  570948ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  571952ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  572956ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  573959ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  574962ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  575964ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  576967ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  577971ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  578973ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  579976ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  580979ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  581982ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  582984ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  583988ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  584991ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  585994ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  586996ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  587999ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  589001ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  590004ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  591007ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  592010ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  593014ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  594017ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  595019ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  596023ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  597026ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  598030ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  599033ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  600036ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  601039ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  602042ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  603044ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  604046ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  605048ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  606051ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  607053ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  608057ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  609060ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  610064ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  611067ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  612070ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  613074ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  614076ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  615081ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  616084ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  617086ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  618088ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  619091ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  620094ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  621096ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  622099ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  623103ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  624108ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  625112ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  626116ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  627120ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  628122ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  629125ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  630128ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  631131ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  632134ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  633136ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  634140ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  635145ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  636148ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  637151ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  638155ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  639157ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  640160ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  641163ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  642166ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  643169ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  644171ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  645175ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  646178ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  647180ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  648183ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  649186ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  650188ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  651191ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  652195ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  653198ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  654201ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  655205ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  656208ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  657211ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  658214ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  659217ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  660221ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  661225ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  662229ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  663231ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  664234ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  665239ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  666241ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  667245ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  668249ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  669252ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  670254ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  671258ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  672261ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  673264ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  674268ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  675270ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  676272ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  677275ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  678279ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  679282ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  680285ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  681287ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  682289ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  683293ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  684295ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  685298ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  686301ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  687304ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  688307ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  689311ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  690314ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  691317ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  692321ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  693324ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  694326ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  695328ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  696331ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  697333ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  698336ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  699339ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  700341ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  701344ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  702347ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  703350ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  704353ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  705356ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  706358ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  707362ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  708365ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  709368ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  710370ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  711372ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  712376ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  713378ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  714381ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  715383ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  716385ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  717388ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  718390ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  719391ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  720393ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  721395ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  722399ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  723401ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  724404ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  725406ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  726408ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  727411ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  728413ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  729415ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  730418ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  731420ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  732422ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  733425ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  734427ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  735429ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  736431ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  737433ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  738435ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  739437ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  740439ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  741444ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  742445ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  743447ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  744449ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  745453ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  746455ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  747457ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  748460ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  749463ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  750466ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  751469ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  752471ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  753473ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  754475ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  755477ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  756479ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  757480ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  758483ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  759485ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  760487ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  761490ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  762492ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  763507ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  764510ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  765512ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  766515ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  767517ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  768520ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  769521ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  770524ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  771526ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  772528ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  773530ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  774532ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  775537ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  776540ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  777543ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  778545ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  779547ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  780549ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  781551ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  782553ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  783556ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  784558ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  785561ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  786562ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  787564ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  788566ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  789568ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  790572ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  791575ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  792577ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  793579ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  794581ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  795583ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  796584ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  797586ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  798588ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  799591ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  800593ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  801595ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  802597ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  803601ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  804603ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  805605ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  806606ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  807608ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  808612ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  809613ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  810615ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  811617ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  812619ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  813622ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  814625ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  815627ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  816630ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  817632ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  818635ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  819637ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  820639ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  821641ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  822644ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  823646ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  824648ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  825650ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  826653ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  827654ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  828656ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  829658ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  830659ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  831661ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  832663ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  833665ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  834667ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  835670ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  836672ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  837673ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  838676ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  839679ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  840682ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  841684ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  842687ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  843689ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  844691ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  845693ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  846695ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  847696ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  848700ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  849703ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  850707ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  851708ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  852711ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  853713ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  854715ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  855718ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  856721ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  857723ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  858725ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  859728ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  860731ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  861734ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  862736ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  863739ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  864741ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  865743ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  866745ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  867748ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  868751ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  869754ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  870756ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  871757ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  872759ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  873763ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  874765ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  875768ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  876773ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  877777ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  878780ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  879785ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  880788ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  881792ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  882795ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  883798ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  884802ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  885804ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  886808ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  887811ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  888814ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  889817ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  890821ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  891825ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  892828ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  893832ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  894836ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  895839ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  896841ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  897844ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  898846ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  899850ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  900852ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  901856ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  902860ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  903863ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  904867ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  905872ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  906874ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  907878ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  908881ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  909886ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  910890ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  911893ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  912896ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  913898ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  914901ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  915904ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  916907ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  917911ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  918915ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  919921ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  920925ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  921929ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  922933ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  923937ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  924940ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  925944ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  926947ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  927950ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  928955ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  929959ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  930962ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  931966ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  932969ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  933973ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  934977ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  935980ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  936984ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  937988ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  938991ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  939995ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  941000ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  942003ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  943005ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  944009ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  945012ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  946014ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  947018ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  948023ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  949026ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  950030ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  951035ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  952040ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  953042ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  954046ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  955048ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  956051ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  957055ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  958059ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  959062ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  960066ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  961068ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  962071ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  963072ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  964075ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  965079ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  966083ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  967087ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  968090ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  969093ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  970095ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  971100ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  972103ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  973106ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  974112ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  975115ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  976118ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  977121ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  978123ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  979128ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  980131ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  981134ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  982138ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  983141ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  984145ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  985148ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  986150ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  987153ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  988157ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  989161ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  990166ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  991169ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  992173ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  993177ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  994181ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  995184ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  996188ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  997191ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  998195ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[  999197ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1000200ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1001204ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1002207ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1003209ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1004214ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1005217ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1006220ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1007222ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1008224ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1009228ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1010232ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1011234ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1012237ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1013241ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1014244ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1015246ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1016250ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1017254ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1018259ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1019263ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1020267ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1021270ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1022272ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1023274ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1024277ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1025279ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1026282ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1027284ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1028287ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1029289ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1030291ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1031292ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1032294ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1033297ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1034299ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1035303ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1036305ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1037309ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1038312ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1039316ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1040319ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1041323ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1042324ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1071226ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1072230ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1073234ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1074236ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1075237ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1076240ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1077245ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1078248ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1079252ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1080255ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1081260ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1082265ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 1083271ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2883594ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2884602ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2885604ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2886610ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2887614ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2888620ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2889624ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2890629ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2891634ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2892637ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2893640ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2894648ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2895656ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2896663ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2897672ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2898680ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2899688ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2900696ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2901701ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2902707ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2903714ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2904721ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2905728ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2906736ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2907742ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2908748ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2909753ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2910758ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2911766ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2912771ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2913777ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2914782ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2915787ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2916794ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2917802ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2918807ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2919813ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2920819ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2921824ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2922829ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2923834ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2924840ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2925848ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2926853ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2927858ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2928863ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2929870ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2930877ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2931884ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2932891ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2933896ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2934903ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2935909ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2936915ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2937920ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2938925ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2939931ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2940938ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2941944ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2942950ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 2943955ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 3967631ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 3968634ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 3969636ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 3970640ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 3971644ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 3972647ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 3973651ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 3974654ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 3975658ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 3976663ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 3977667ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 3978673ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 3979679ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 3980684ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 3981692ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 3982699ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 3983705ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 3984711ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 3985717ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 3986724ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 3987729ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 3988735ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 3989742ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 3990747ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 3991753ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 3992759ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 3993764ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 3994770ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 3995777ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 3996784ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 3997789ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 3998796ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 3999803ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4000810ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4001818ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4002822ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4003830ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4004837ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4005843ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4006849ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4007855ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4008862ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4009869ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4010876ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4011880ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4012887ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4013893ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4014900ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4015907ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4581764ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4582767ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4583770ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4584773ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4585775ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4586777ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4587780ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4588782ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4589784ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4590786ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4591789ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4592792ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4593794ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4594796ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4595799ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4596801ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4597804ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4598806ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4599809ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4600813ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4601815ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4602816ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4603819ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4604821ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 4606583ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:21548
+[ 4606608ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[ 4606608ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[ 4606703ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/register:0
+[ 4606703ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/register:0
+[ 4861699ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:21548
+[ 4861723ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[ 4861723ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[ 4861814ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/register:0
+[ 4861814ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/register:0
+[ 4877143ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:21548
+[ 4877174ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[ 4877174ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[ 4877262ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/register:0
+[ 4877263ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/register:0
+[ 4916219ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:21548
+[ 4916249ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[ 4916249ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[ 4916337ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/register:0
+[ 4916337ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/register:0
+[ 4944356ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5173/src/context/OrdersContext.jsx?t=1790109062091:0
+[ 4944356ms] [ERROR] [hmr] Failed to reload /src/context/OrdersContext.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5173/@vite/client:175
+[ 4949001ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:21548
+[ 4949029ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[ 4949030ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[ 4949117ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/register:0
+[ 4949117ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/register:0
+[ 4950368ms] ReferenceError: Account is not defined
+    at App (http://localhost:5173/src/App.jsx?t=1790109068027:119:89)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14580:28)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15922:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3672:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3697:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3731:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19763:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+[ 4950371ms] ReferenceError: Account is not defined
+    at App (http://localhost:5173/src/App.jsx?t=1790109068027:119:89)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14580:28)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15922:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3672:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3697:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3731:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19763:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+[ 4950372ms] [ERROR] The above error occurred in the <App> component:
+
+    at App (http://localhost:5173/src/App.jsx?t=1790109068027:38:24)
+    at CartProvider (http://localhost:5173/src/context/CartContext.jsx:32:32)
+    at PromotionsProvider (http://localhost:5173/src/context/PromotionsContext.jsx:39:38)
+    at AuthProvider (http://localhost:5173/src/context/AuthContext.jsx?t=1790108979122:29:32)
+    at LanguageProvider (http://localhost:5173/src/context/LanguageContext.jsx?t=1790108994477:30:36)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4523:15)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:5261:5)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14029
+[ 4950373ms] ReferenceError: Account is not defined
+    at App (http://localhost:5173/src/App.jsx?t=1790109068027:119:89)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14580:28)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15922:22)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19751:22)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+    at renderRootSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19114:15)
+    at recoverFromConcurrentError (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:18734:28)
+    at performSyncWorkOnRoot (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:18877:28)
+[ 4952752ms] ReferenceError: Account is not defined
+    at App (http://localhost:5173/src/App.jsx?t=1790109068027:119:89)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14924:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15912:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3672:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3697:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3731:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19763:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+[ 4952753ms] ReferenceError: Account is not defined
+    at App (http://localhost:5173/src/App.jsx?t=1790109068027:119:89)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14924:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15912:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3672:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3697:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3731:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19763:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+[ 4952753ms] [ERROR] The above error occurred in the <App> component:
+
+    at App (http://localhost:5173/src/App.jsx?t=1790109068027:38:24)
+    at CartProvider (http://localhost:5173/src/context/CartContext.jsx:32:32)
+    at PromotionsProvider (http://localhost:5173/src/context/PromotionsContext.jsx:39:38)
+    at AuthProvider (http://localhost:5173/src/context/AuthContext.jsx?t=1790108979122:29:32)
+    at LanguageProvider (http://localhost:5173/src/context/LanguageContext.jsx?t=1790108994477:30:36)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4523:15)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:5261:5)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14029
+[ 4952753ms] ReferenceError: Account is not defined
+    at App (http://localhost:5173/src/App.jsx?t=1790109068027:119:89)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14924:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15912:22)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19751:22)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+    at renderRootSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19114:15)
+    at recoverFromConcurrentError (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:18734:28)
+    at performSyncWorkOnRoot (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:18877:28)
+[ 4952955ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/register:0
+[ 4952955ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/register:0
+[ 4956041ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:5173/src/pages/Account.jsx?t=1790109073777:0
+[ 4956041ms] [ERROR] [hmr] Failed to reload /src/pages/Account.jsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5173/@vite/client:175
+[ 5004577ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5173/@vite/client:559
+[ 5004579ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5005581ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5006583ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5007586ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5008589ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5009592ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5010595ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5011597ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5012600ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5013604ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5014607ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5015610ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5016612ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5017615ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5018618ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5019622ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5020625ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5021627ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5022631ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5023634ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5024637ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5025639ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5026642ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5027644ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5028647ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5029651ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5030653ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5031656ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5032659ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5033662ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5034665ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5035669ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5036672ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5037676ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5038680ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5039682ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5040686ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5041689ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5042692ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5043695ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5044697ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5045700ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5046711ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5047714ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5048717ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5049721ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5050724ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5051726ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5052729ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5053733ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5054736ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5055740ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5056743ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5057745ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5058747ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5059750ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5060753ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5061756ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5062759ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5063761ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5064763ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5065766ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5066768ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5067772ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5068774ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5069778ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5070781ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5071784ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5072787ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5073791ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5074794ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5075796ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5076798ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5077802ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5078806ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5079809ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5080812ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5081816ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5082820ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5083822ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5084825ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5085828ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5086830ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5087833ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5088835ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5089837ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5090839ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5091842ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5092846ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5093848ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5094851ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5095853ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5096855ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5097858ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5098861ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5099864ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5100868ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5101871ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5102873ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5103875ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5104876ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost:5173/:0
+[ 5106712ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:21548
+[ 5106744ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[ 5106744ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[ 5106832ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/register:0
+[ 5106832ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/register:0
+[ 5143589ms] ReferenceError: Admin is not defined
+    at App (http://localhost:5173/src/App.jsx?t=1790109261232:161:87)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14580:28)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15922:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3672:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3697:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3731:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19763:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+[ 5143591ms] ReferenceError: Admin is not defined
+    at App (http://localhost:5173/src/App.jsx?t=1790109261232:161:87)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14580:28)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15922:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3672:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3697:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3731:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19763:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+[ 5143591ms] [ERROR] The above error occurred in the <App> component:
+
+    at App (http://localhost:5173/src/App.jsx?t=1790109261232:43:24)
+    at CartProvider (http://localhost:5173/src/context/CartContext.jsx:32:32)
+    at PromotionsProvider (http://localhost:5173/src/context/PromotionsContext.jsx:39:38)
+    at AuthProvider (http://localhost:5173/src/context/AuthContext.jsx:29:32)
+    at LanguageProvider (http://localhost:5173/src/context/LanguageContext.jsx:30:36)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4523:15)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:5261:5)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14029
+[ 5143593ms] ReferenceError: Admin is not defined
+    at App (http://localhost:5173/src/App.jsx?t=1790109261232:161:87)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14580:28)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15922:22)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19751:22)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+    at renderRootSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19114:15)
+    at recoverFromConcurrentError (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:18734:28)
+    at performSyncWorkOnRoot (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:18877:28)
+[ 5168310ms] ReferenceError: Admin is not defined
+    at App (http://localhost:5173/src/App.jsx?t=1790109261232:161:87)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14924:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15912:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3672:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3697:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3731:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19763:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+[ 5168311ms] ReferenceError: Admin is not defined
+    at App (http://localhost:5173/src/App.jsx?t=1790109261232:161:87)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14924:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15912:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3672:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3697:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3731:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19763:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+[ 5168311ms] [ERROR] The above error occurred in the <App> component:
+
+    at App (http://localhost:5173/src/App.jsx?t=1790109261232:43:24)
+    at CartProvider (http://localhost:5173/src/context/CartContext.jsx:32:32)
+    at PromotionsProvider (http://localhost:5173/src/context/PromotionsContext.jsx:39:38)
+    at AuthProvider (http://localhost:5173/src/context/AuthContext.jsx:29:32)
+    at LanguageProvider (http://localhost:5173/src/context/LanguageContext.jsx:30:36)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4523:15)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:5261:5)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14029
+[ 5168312ms] ReferenceError: Admin is not defined
+    at App (http://localhost:5173/src/App.jsx?t=1790109261232:161:87)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14924:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15912:22)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19751:22)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+    at renderRootSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19114:15)
+    at recoverFromConcurrentError (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:18734:28)
+    at performSyncWorkOnRoot (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:18877:28)
+[ 5175369ms] [INFO] %cDownload the React DevTools for a better development experience: https://reactjs.org/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:21548
+[ 5175377ms] ReferenceError: Admin is not defined
+    at App (http://localhost:5173/src/App.jsx?t=1790109292644:161:87)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14924:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15912:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3672:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3697:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3731:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19763:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+[ 5175380ms] ReferenceError: Admin is not defined
+    at App (http://localhost:5173/src/App.jsx?t=1790109292644:161:87)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14924:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15912:22)
+    at HTMLUnknownElement.callCallback2 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3672:22)
+    at Object.invokeGuardedCallbackDev (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3697:24)
+    at invokeGuardedCallback (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:3731:39)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19763:15)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+[ 5175379ms] [ERROR] The above error occurred in the <App> component:
+
+    at App (http://localhost:5173/src/App.jsx?t=1790109292644:43:24)
+    at CartProvider (http://localhost:5173/src/context/CartContext.jsx:32:32)
+    at PromotionsProvider (http://localhost:5173/src/context/PromotionsContext.jsx:39:38)
+    at AuthProvider (http://localhost:5173/src/context/AuthContext.jsx:29:32)
+    at LanguageProvider (http://localhost:5173/src/context/LanguageContext.jsx?t=1790109292644:30:36)
+    at Router (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4523:15)
+    at BrowserRouter (http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:5261:5)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries. @ http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14029
+[ 5175380ms] ReferenceError: Admin is not defined
+    at App (http://localhost:5173/src/App.jsx?t=1790109292644:161:87)
+    at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:11546:26)
+    at mountIndeterminateComponent (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:14924:21)
+    at beginWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:15912:22)
+    at beginWork$1 (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19751:22)
+    at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19196:20)
+    at workLoopSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19135:13)
+    at renderRootSync (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:19114:15)
+    at recoverFromConcurrentError (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:18734:28)
+    at performConcurrentWorkOnRoot (http://localhost:5173/node_modules/.vite/deps/chunk-XPR23Y44.js?v=dfdb6b39:18682:30)
+[ 5180527ms] [WARNING] ⚠️ React Router Future Flag Warning: React Router will begin wrapping state updates in `React.startTransition` in v7. You can use the `v7_startTransition` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_starttransition. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[ 5180528ms] [WARNING] ⚠️ React Router Future Flag Warning: Relative route resolution within Splat routes is changing in v7. You can use the `v7_relativeSplatPath` future flag to opt-in early. For more information, see https://reactrouter.com/v6/upgrading/future#v7_relativesplatpath. @ http://localhost:5173/node_modules/.vite/deps/react-router-dom.js?v=dfdb6b39:4414
+[ 5180628ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/register:0
+[ 5180628ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/register:0

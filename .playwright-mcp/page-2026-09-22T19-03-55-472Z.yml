@@ -1,0 +1,50 @@
+- generic [ref=f66e3]:
+  - banner [ref=f66e4]:
+    - generic [ref=f66e5]:
+      - link "Baven Studio — Accueil" [ref=f66e6] [cursor=pointer]:
+        - /url: /
+        - img "Baven Studio" [ref=f66e7]
+      - navigation [ref=f66e8]:
+        - list [ref=f66e9]:
+          - listitem [ref=f66e10]:
+            - link "Homme" [ref=f66e11] [cursor=pointer]:
+              - /url: /shop?gender=homme
+          - listitem [ref=f66e12]:
+            - link "Femme" [ref=f66e13] [cursor=pointer]:
+              - /url: /shop?gender=femme
+          - listitem [ref=f66e14]:
+            - link "Collection" [ref=f66e15] [cursor=pointer]:
+              - /url: /shop
+      - generic [ref=f66e16]:
+        - generic [ref=f66e17]:
+          - searchbox "Rechercher..." [ref=f66e18]
+          - button "Ouvrir la recherche" [ref=f66e19] [cursor=pointer]
+        - button "Switch language" [ref=f66e24] [cursor=pointer]: FR
+        - link "Connexion" [ref=f66e28] [cursor=pointer]:
+          - /url: /login
+        - link "Panier (0)" [ref=f66e32] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=f66e33]: Panier
+          - generic [ref=f66e34]: "0"
+  - main [ref=f66e35]:
+    - generic [ref=f66e36]:
+      - heading "Shop" [level=1] [ref=f66e37]
+      - generic [ref=f66e38]:
+        - button "Tout" [ref=f66e39] [cursor=pointer]
+        - button "Femme" [ref=f66e40] [cursor=pointer]
+        - button "Homme" [ref=f66e41] [cursor=pointer]
+      - paragraph [ref=f66e42]: Aucun produit ne correspond à cette sélection pour le moment.
+  - contentinfo [ref=f66e43]:
+    - generic [ref=f66e44]:
+      - navigation [ref=f66e45]:
+        - link "Info" [ref=f66e46] [cursor=pointer]:
+          - /url: /info/info
+        - link "Stockists" [ref=f66e47] [cursor=pointer]:
+          - /url: /info/stockists
+        - link "Social" [ref=f66e48] [cursor=pointer]:
+          - /url: /info/social
+        - link "Support" [ref=f66e49] [cursor=pointer]:
+          - /url: /info/support
+        - link "Legal" [ref=f66e50] [cursor=pointer]:
+          - /url: /info/legal
+      - generic [ref=f66e51]: © 2021 – 2026 Baven Studio. All rights reserved

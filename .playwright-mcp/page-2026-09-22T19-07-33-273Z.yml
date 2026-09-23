@@ -1,0 +1,70 @@
+- generic [ref=f69e3]:
+  - banner [ref=f69e4]:
+    - generic [ref=f69e5]:
+      - link "Baven Studio — Accueil" [ref=f69e6] [cursor=pointer]:
+        - /url: /
+        - img "Baven Studio" [ref=f69e7]
+      - navigation [ref=f69e8]:
+        - list [ref=f69e9]:
+          - listitem [ref=f69e10]:
+            - link "Homme" [ref=f69e11] [cursor=pointer]:
+              - /url: /shop?gender=homme
+          - listitem [ref=f69e12]:
+            - link "Femme" [ref=f69e13] [cursor=pointer]:
+              - /url: /shop?gender=femme
+          - listitem [ref=f69e14]:
+            - link "Collection" [ref=f69e15] [cursor=pointer]:
+              - /url: /shop
+      - generic [ref=f69e16]:
+        - generic [ref=f69e17]:
+          - searchbox "Rechercher..." [ref=f69e18]
+          - button "Ouvrir la recherche" [ref=f69e19] [cursor=pointer]
+        - button "Switch language" [ref=f69e24] [cursor=pointer]: FR
+        - link "Connexion" [ref=f69e28] [cursor=pointer]:
+          - /url: /login
+        - link "Panier (0)" [ref=f69e32] [cursor=pointer]:
+          - /url: /cart
+          - generic [ref=f69e33]: Panier
+          - generic [ref=f69e34]: "0"
+  - main [ref=f69e35]:
+    - generic [ref=f69e62]:
+      - generic [ref=f69e63]: Become. Evolve.
+      - generic [ref=f69e66]:
+        - heading "Créer un compte" [level=1] [ref=f69e67]
+        - paragraph [ref=f69e68]: Créez votre compte pour suivre vos commandes et accélérer vos prochains achats.
+        - generic [ref=f69e69]:
+          - generic [ref=f69e70]:
+            - generic [ref=f69e71]: Nom complet
+            - textbox "Nom complet Nom requis" [ref=f69e86]
+            - generic [ref=f69e87]: Nom requis
+          - generic [ref=f69e73]:
+            - generic [ref=f69e74]: Email
+            - textbox "Email Email invalide" [ref=f69e88]
+            - generic [ref=f69e89]: Email invalide
+          - generic [ref=f69e76]:
+            - generic [ref=f69e77]: Mot de passe
+            - textbox "Mot de passe Au moins 8 caractères" [ref=f69e90]
+            - generic [ref=f69e91]: Au moins 8 caractères
+          - generic [ref=f69e79]:
+            - generic [ref=f69e80]: Confirmer le mot de passe
+            - textbox "Confirmer le mot de passe" [ref=f69e81]
+          - button "Créer mon compte" [active] [ref=f69e82] [cursor=pointer]
+          - paragraph [ref=f69e83]: Simulation — la création de compte n'est pas encore reliée à un compte réel (V1).
+        - paragraph [ref=f69e84]:
+          - text: Vous avez déjà un compte ?
+          - link "Se connecter" [ref=f69e85] [cursor=pointer]:
+            - /url: /login
+  - contentinfo [ref=f69e53]:
+    - generic [ref=f69e54]:
+      - navigation [ref=f69e55]:
+        - link "Info" [ref=f69e56] [cursor=pointer]:
+          - /url: /info/info
+        - link "Stockists" [ref=f69e57] [cursor=pointer]:
+          - /url: /info/stockists
+        - link "Social" [ref=f69e58] [cursor=pointer]:
+          - /url: /info/social
+        - link "Support" [ref=f69e59] [cursor=pointer]:
+          - /url: /info/support
+        - link "Legal" [ref=f69e60] [cursor=pointer]:
+          - /url: /info/legal
+      - generic [ref=f69e61]: © 2021 – 2026 Baven Studio. All rights reserved

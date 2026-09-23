@@ -1,16 +1,15 @@
 import { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext.jsx';
 import { useAuth } from '../context/AuthContext.jsx';
 import { HEADER_HEIGHT } from '../components/Header.jsx';
-import loginImage from '../assets/gender/Homme.jpg';
+import registerImage from '../assets/register-hero.png';
 
-const INITIAL_FORM = { email: '', password: '' };
+const INITIAL_FORM = { fullName: '', email: '', password: '', confirmPassword: '' };
 
-export default function Login() {
+export default function Register() {
   const { t } = useLanguage();
   const { login } = useAuth();
-  const navigate = useNavigate();
   const [form, setForm] = useState(INITIAL_FORM);
   const [errors, setErrors] = useState({});
   const [submitted, setSubmitted] = useState(false);
@@ -25,13 +24,38 @@ export default function Login() {
   function handleSubmit(e) {
     e.preventDefault();
     const nextErrors = {};
-    if (!/^\S+@\S+\.\S+$/.test(form.email)) nextErrors.email = t('login.errors.email');
-    if (!form.password.trim()) nextErrors.password = t('login.errors.password');
+    if (!form.fullName.trim()) nextErrors.fullName = t('register.errors.fullName');
+    if (!/^\S+@\S+\.\S+$/.test(form.email)) nextErrors.email = t('register.errors.email');
+    if (form.password.length < 8) nextErrors.password = t('register.errors.password');
+    if (form.confirmPassword !== form.password) nextErrors.confirmPassword = t('register.errors.confirmPassword');
     setErrors(nextErrors);
     if (Object.keys(nextErrors).length > 0) return;
-    login({ email: form.email });
+    login({ fullName: form.fullName, email: form.email });
     setSubmitted(true);
-    setTimeout(() => navigate('/account'), 900);
+  }
+
+  if (submitted) {
+    return (
+      <div
+        className="container section"
+        style={{
+          textAlign: 'center',
+          minHeight: `calc(100vh - ${HEADER_HEIGHT}px)`,
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}
+      >
+        <h1 style={{ fontSize: 'clamp(28px, 4vw, 44px)', marginBottom: 16 }}>
+          {t('register.success', form.fullName.split(' ')[0])}
+        </h1>
+        <p style={{ color: 'var(--color-neutral-grey)', marginBottom: 32 }}>{t('register.successNote')}</p>
+        <Link to="/account" className="btn btn-primary">
+          {t('register.viewAccount')}
+        </Link>
+      </div>
+    );
   }
 
   return (
@@ -40,7 +64,7 @@ export default function Login() {
         className="login-image"
         style={{
           position: 'relative',
-          backgroundImage: `url(${loginImage})`,
+          backgroundImage: `url(${registerImage})`,
           backgroundSize: 'cover',
           backgroundPosition: 'top',
           alignItems: 'flex-end',
@@ -66,12 +90,29 @@ export default function Login() {
 
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '48px 24px' }}>
         <div style={{ width: '100%', maxWidth: 380 }}>
-          <h1 style={{ fontSize: 'clamp(28px, 4vw, 44px)', marginBottom: 12 }}>{t('login.title')}</h1>
-          <p style={{ color: 'var(--color-neutral-grey)', marginBottom: 32 }}>{t('login.subtitle')}</p>
+          <h1 style={{ fontSize: 'clamp(28px, 4vw, 44px)', marginBottom: 12 }}>{t('register.title')}</h1>
+          <p style={{ color: 'var(--color-neutral-grey)', marginBottom: 32 }}>{t('register.subtitle')}</p>
 
           <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
             <label style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
-              <span className="eyebrow">{t('login.email')}</span>
+              <span className="eyebrow">{t('register.fullName')}</span>
+              <input
+                type="text"
+                value={form.fullName}
+                onChange={updateField('fullName')}
+                style={{
+                  padding: '12px 14px',
+                  border: `1px solid ${errors.fullName ? 'var(--color-error)' : 'var(--color-light-grey)'}`,
+                  fontSize: 14,
+                  background: 'var(--color-off-white)',
+                  color: 'var(--color-ink)',
+                }}
+              />
+              {errors.fullName && <span style={{ fontSize: 12, color: 'var(--color-error)' }}>{errors.fullName}</span>}
+            </label>
+
+            <label style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
+              <span className="eyebrow">{t('register.email')}</span>
               <input
                 type="email"
                 value={form.email}
@@ -88,7 +129,7 @@ export default function Login() {
             </label>
 
             <label style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
-              <span className="eyebrow">{t('login.password')}</span>
+              <span className="eyebrow">{t('register.password')}</span>
               <input
                 type="password"
                 value={form.password}
@@ -104,21 +145,38 @@ export default function Login() {
               {errors.password && <span style={{ fontSize: 12, color: 'var(--color-error)' }}>{errors.password}</span>}
             </label>
 
+            <label style={{ display: 'flex', flexDirection: 'column', gap: 6 }}>
+              <span className="eyebrow">{t('register.confirmPassword')}</span>
+              <input
+                type="password"
+                value={form.confirmPassword}
+                onChange={updateField('confirmPassword')}
+                style={{
+                  padding: '12px 14px',
+                  border: `1px solid ${errors.confirmPassword ? 'var(--color-error)' : 'var(--color-light-grey)'}`,
+                  fontSize: 14,
+                  background: 'var(--color-off-white)',
+                  color: 'var(--color-ink)',
+                }}
+              />
+              {errors.confirmPassword && (
+                <span style={{ fontSize: 12, color: 'var(--color-error)' }}>{errors.confirmPassword}</span>
+              )}
+            </label>
+
             <button type="submit" className="btn btn-primary" style={{ marginTop: 8 }}>
-              {t('login.submit')}
+              {t('register.submit')}
             </button>
 
-            {submitted && (
-              <p className="eyebrow" style={{ color: 'var(--color-neutral-grey)' }}>
-                {t('login.demoNote')}
-              </p>
-            )}
+            <p className="eyebrow" style={{ color: 'var(--color-neutral-grey)' }}>
+              {t('register.demoNote')}
+            </p>
           </form>
 
           <p style={{ marginTop: 24, fontSize: 14, color: 'var(--color-neutral-grey)' }}>
-            {t('login.noAccount')}{' '}
-            <Link to="/register" style={{ color: 'var(--color-ink)', textDecoration: 'underline' }}>
-              {t('login.createAccount')}
+            {t('register.haveAccount')}{' '}
+            <Link to="/login" style={{ color: 'var(--color-ink)', textDecoration: 'underline' }}>
+              {t('register.login')}
             </Link>
           </p>
         </div>
